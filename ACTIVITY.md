@@ -1,4 +1,4 @@
-# Reading the Gap — Interactive Activity
+# Reading the Gap, Interactive Activity
 
 A unit in critical AI literacy. M.A. in Artificial Intelligence Innovation.
 
@@ -12,7 +12,7 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 **COMMANDS** are fixed. You copy them exactly, character for character, because they are instructions to your computer and only work one way. They begin with `!` and you paste them as written. Folder and file names have to match, so don't change them.
 
-**PROMPTS** are not fixed. A prompt is you talking to the AI in your own words. This guide gives each prompt in two forms: the **exact prompt I said**, so you have a working model, and the **shape**, a plain description of the job so you can say it your own way. Use the shape and speak your own version, because the reading has to be yours. Copy my exact words only if you're stuck.
+**PROMPTS** are not fixed. A prompt is you talking to the AI in your own words. This guide gives each prompt in two forms: the **exact prompt I said**, so you have a working model, and a plain description of **the job it needs to do**, so you can say it your own way. Work from that description and put it in your own words, because the reading has to be yours. Copy my exact words only if you're stuck.
 
 So: commands you copy, prompts you make your own.
 
@@ -20,7 +20,7 @@ So: commands you copy, prompts you make your own.
 
 ## Where this lesson sits: the three-lesson arc
 
-This is the second of three lessons, and it helps to see the whole shape.
+This is the second of three lessons, and it helps to see how the whole thing fits together.
 
 **Lesson one** introduced the readings and taught you to assemble your own archive of whatever image or text content matters to you. Its assessment asked you to understand the four postphenomenological relations and to situate them in Peter-Paul Verbeek's work on the morality of media, and in the language of transparency and opacity drawn from Heather Wiltse. You then historicized that trajectory through Paul Frosh, asking what differs between shared media and personalized media, and how the content we make both reflects us and lets us reflect on it. You justified your reading of the literature in writing, across a couple of media types you chose for your archive, and you kept a coding-tool record showing you can call different media and texts on request and analyze that relationship through the lens of mediation theory, alongside the aims of digital humanities itself.
 
@@ -40,22 +40,23 @@ The material is your own screenshots, the ones already piling up on your phone, 
 
 **What it does and why.** You make a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, and this catches them early. You build it once, in your own words, about you.
 
-First check you're in your workspace.
+First, you want to make sure your coding tool is actually sitting inside your own workspace folder, because most of us have more than one project on our machine and it's easy to be in the wrong one. So run this, which just tells you where you are right now.
 
 COMMAND:
 ```
 !pwd
 ```
 
-If you need to move into it (use your own path):
+If that comes back with somewhere other than your workspace, you need to move into it, and for that you need the real path to your workspace folder. Here's how to get it without typing anything by hand. On a Mac, find your workspace folder in Finder, right-click it, and hold down the Option key, and you'll see "Copy [folder] as Pathname." On Windows, hold Shift, right-click the folder, and choose "Copy as path." Either way you now have the exact path on your clipboard. Then you type cd, a space, and paste it inside quotes, like this, but with your own path where mine is.
+
 ```
-cd "path/to/your/workspace"
+cd "/Users/yourname/Downloads/your-workspace-folder"
 ```
 
 EXACT PROMPT I said:
 > Make me a file called coaching.md in the .claude/agents folder. It's my coaching agent. While I'm writing a prompt, I want it to slow me down and ask what I'm assuming about the image before I send anything. At the end, have it read back over all my prompts and show me what I kept asking for and what I never thought to ask. Then have it name how I was relating to the tool across the session, using Ihde's four relations, embodiment, hermeneutic, alterity, and background, and tell me it's offering that as a reading, not a fact. And have it pull from the postphenomenology readings in my literature folder, Ihde, Verbeek, Rosenberger, and Wiltse, to back that up. It asks me questions, it doesn't write my prompts for me.
 
-SHAPE: ask your tool to make a coaching agent that slows you down and asks what you're assuming, reads your whole prompt history back at the end, names how you related to the tool through the four relations as a reading not a fact, and draws on the readings in your literature folder. It asks, it doesn't write your prompts.
+IN YOUR OWN WORDS: ask your tool to make a coaching agent that slows you down and asks what you're assuming, reads your whole prompt history back at the end, names how you related to the tool through the four relations as a reading not a fact, and draws on the readings in your literature folder. It asks, it doesn't write your prompts.
 
 ---
 
@@ -79,12 +80,12 @@ Write your answers under four headings, in your own words: what I see across the
 
 ## Stage 3, The AI reads your archive
 
-**What it does and why.** The AI reads across your whole set for the first time, and you call your coaching agent on the prompt first so it surfaces your assumption. The gap between your reading and the tool's appears here.
+**What it does and why.** The AI reads across your whole set for the first time, and you call your coaching agent on the prompt first so it brings your assumption into the open before anything runs. The gap between your reading and the tool's reading appears here.
 
 EXACT PROMPT I said:
 > Read across all twenty-six screenshots in my vernacular-archive folder as a set, not one by one, and tell me what kinds I keep capturing and what someone would need to notice to read each kind. But before you run that, use my coaching agent on the prompt I just wrote and have it ask me what I'm assuming first.
 
-SHAPE: ask the AI to read your whole archive as a set and name the kinds you keep capturing, and have it run your coaching agent on the prompt first.
+IN YOUR OWN WORDS: ask the AI to read your whole archive as a set and name the kinds you keep capturing, and have it run your coaching agent on the prompt first.
 
 The full read takes a few minutes. When done:
 ```
@@ -104,7 +105,7 @@ With the reading open, search a few spots (Command-F). Look for a place it's imp
 EXACT PROMPT I said:
 > You sound very sure about these six types. But my own reading admits I can't always recover why I took a given screenshot. So tell me honestly, which of your types are anchored in what's really on the screen, and which are you guessing at to give me a clean answer?
 
-SHAPE: tell the AI it sounds sure, remind it your own reading admits you can't always recover your intention, and ask which parts are anchored in what's really on the screen versus guessed.
+IN YOUR OWN WORDS: tell the AI it sounds sure, remind it your own reading admits you can't always recover your intention, and ask which parts are anchored in what's really on the screen versus guessed.
 
 ---
 
@@ -115,7 +116,7 @@ SHAPE: tell the AI it sounds sure, remind it your own reading admits you can't a
 EXACT PROMPT I said:
 > Use my peer-screenshot agent on the same twenty-six in vernacular-archive. The first agent sorted by the formal relationship between interface and framed content. Sort instead by the capturer's intention in keeping each one, the act of saving rather than the look of the image. Tell me where this reading and the first one part ways, and why the difference comes from the stance, not the pictures.
 
-SHAPE: ask your peer agent to read the same set from a clearly different stance, name the first agent's stance, sort by something else entirely (why each was saved, not how it looks), and say where the two readings part ways and why that comes from the stance, not the images.
+IN YOUR OWN WORDS: ask your peer agent to read the same set from a clearly different stance, name the first agent's stance, sort by something else entirely (why each was saved, not how it looks), and say where the two readings part ways and why that comes from the stance, not the images.
 
 When done:
 ```
@@ -146,7 +147,7 @@ When done:
 !open context-image-generated.png
 ```
 
-Look hard at the image against your real set. Find what it invented and what it flattened. Read the divergence, don't score it right or wrong. (Free image tools exist if you don't use Replicate, see the setup.)
+Look hard at the image against your real set. Find where the picture diverges from your real set, what it added that was never there, and what it flattened or dropped. Read the divergence, don't score it right or wrong. (Free image tools exist if you don't use Replicate, see the setup.)
 
 **SAVE for hand-in:** your generated image.
 
@@ -177,7 +178,7 @@ Then log it by hand: ask your tool to add a note to prompts.md describing what y
 EXACT PROMPT I said:
 > Fill in my final-prompt file. Pull my position from my interpretation file, and the two readings from the screenshot-reading and peer-reading files. Keep my position up front, and keep the two readings separate, don't merge them, because the point is they disagree.
 
-SHAPE: ask your tool to fill your master-prompt file from your three files, keep your position first, and keep the two readings separate rather than merged, because their disagreement is part of what you carry forward.
+IN YOUR OWN WORDS: ask your tool to fill your master-prompt file from your three files, keep your position first, and keep the two readings separate rather than merged, because their disagreement is part of what you carry forward.
 
 **SAVE for hand-in:** `final-prompt.md`.
 
@@ -195,7 +196,7 @@ Your `prompts.md` saved every prompt you sent:
 EXACT PROMPT I said:
 > Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.
 
-SHAPE: ask your coaching agent to read your whole trail back, name what you kept reaching for and never tried, and name how you related to the tool through the four relations.
+IN YOUR OWN WORDS: ask your coaching agent to read your whole trail back, name what you kept reaching for and never tried, and name how you related to the tool through the four relations.
 
 When done:
 ```

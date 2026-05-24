@@ -1,4 +1,4 @@
-# Reading the Gap — Assessment
+# Reading the Gap, Assessment
 
 A unit in critical AI literacy. M.A. in Artificial Intelligence Innovation.
 
@@ -33,7 +33,7 @@ You do this after the activity, using your own trail and artifacts. There is one
 
 ### Step 1, turn the coach back on your whole session
 
-This is the same coaching agent you built at the start of the activity. Now you point it at your entire prompt trail so it surfaces your patterns. This is a real-time prompt you run.
+This is the same coaching agent you built at the start of the activity. Now you point it at your entire prompt trail so it brings your patterns into the open. This is a real-time prompt you run.
 
 EXACT PROMPT to run:
 > Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.
@@ -82,4 +82,4 @@ The "what I don't know" pile counts as much as the "what I can prove" pile, beca
 
 ## Where the prompts live in the repository
 
-The one prompt this assessment uses, the coach readback in Step 1, is in the repository prompt list alongside the activity prompts, so students copy or adapt it like any other. The exact and shape forms are both listed there.
+The one prompt this assessment uses, the coach readback in Step 1, is in the repository prompt list alongside the activity prompts, so students copy or adapt it like any other. Both the exact wording and a plain description you can put in your own words are listed there.
