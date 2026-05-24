@@ -130,6 +130,12 @@ When done:
 
 **What it does and why.** You force the reading into an image, because words let a model hedge and a picture has to commit. The moment it commits, you see where it diverges from your real archive. This is the gap made visible.
 
+You distill your reading into a short image prompt. Here is the one I used, as a model:
+
+> A dreamlike composite scene that blends a city seen from above with fragments of everyday screen life. Soft layered imagery of urban streets and skylines, partial glimpses of paintings and artworks, and scattered objects of desire like food, a car, and a house, all dissolving into one another as if remembered rather than photographed. Muted warm tones, hazy edges, the feeling of many small captured moments overlapping. No text, no words, no letters. Painterly and atmospheric.
+
+Note that the prompt explicitly asks for no text, which makes it easy to spot where the model diverges from what you asked.
+
 This uses a script and your API key:
 ```
 !python3 generate_context.py
