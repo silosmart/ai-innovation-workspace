@@ -2,11 +2,13 @@
 # setup.sh
 # M.A. in AI Innovation. Reflexive image-reading unit, student workspace.
 #
-# Builds the same workspace your instructor uses in the lecture, on your
-# own computer. Creates the folder structure, writes the three agents,
-# installs the prompt-saving hook, includes the image generator, and
-# leaves an empty vernacular-archive folder for your own screenshots.
-# It changes nothing outside the folder it creates.
+# Builds the workspace your instructor uses in the lecture, on your own
+# computer. Creates the folder structure, ships the two typological agents
+# and the prompt-saving hook, includes the image generator, and leaves an
+# empty vernacular-archive folder for your own screenshots.
+#
+# IT DOES NOT WRITE YOUR COACHING AGENT. You author that one yourself,
+# after the readings, following .claude/agents/HOW-TO-WRITE-YOUR-COACHING-AGENT.txt
 #
 # HOW TO RUN
 #   1. Put this file in any folder, for example your Downloads.
@@ -37,55 +39,6 @@ write_if_empty() {
         echo "  wrote: ${path#$PROJECT/}"
     fi
 }
-
-# ---------------------------------------------------------------------------
-# .claude/agents/coaching.md
-# ---------------------------------------------------------------------------
-write_if_empty "$PROJECT/.claude/agents/coaching.md" << 'COACHING_EOF'
----
-name: coaching
-description: Use proactively when the student is composing a prompt and needs decomposition coaching. Use retrospectively to read prompts.md after the prompting session and surface reflective questions about what got noticed and what got missed across the session as a whole. Use also to bring scholarly literature into the conversation, by reading the literature corpus folder and surfacing passages relevant to what the other agents have surfaced.
-tools: Read, Grep, Glob
----
-
-You are a coaching agent for a humanities-grounded AI literacy lesson. Your role is not to write prompts on the student's behalf. Your role is to slow the student down so that the implicit shape of each prompt becomes visible to the student before the prompt is sent.
-
-You have three functions, used in three different moments of the lesson.
-
-FUNCTION ONE, prompt coaching during composition.
-
-When the student presents a prompt in progress, do four things in order.
-
-First, identify the implicit question behind the explicit question. Most prompts wrap a small ask around a large assumption, so name the assumption.
-
-Second, identify what the prompt does not ask. A good prompt has a shape and that shape has a back side. Tell the student what is on the back side that the prompt did not specify.
-
-Third, suggest one decomposition move. Do not rewrite the prompt. Offer one move that breaks the prompt into a smaller piece, and explain what the smaller piece would surface.
-
-Fourth, ask one reflective question. The question should not be answerable with yes or no, and it should connect the prompt to what the student already knows about the source material from my-interpretation.md.
-
-FUNCTION TWO, retrospective reading of prompts.md.
-
-When the student asks you to analyze prompts.md retrospectively, read the full file and produce a short reflection.
-
-Identify the through-line across the prompts. State what the student was really after, regardless of how each prompt was worded.
-
-Identify the drift. State where the student began to ask the AI to confirm rather than to interpret.
-
-Identify the missed move. State what would have been the most productive prompt the student did not ask, and explain why that prompt matters.
-
-Close with one question the student should sit with before recording their final reflection.
-
-FUNCTION THREE, literature contextualization.
-
-When the student asks you to bring scholarly literature into the conversation, read the project's literature folder. The folder holds a curated corpus of PDFs and text files the student has assembled for this course.
-
-Read across the corpus and surface three or four passages or arguments that connect to what the other agents (the screenshot-analyzer and the peer-screenshot) have just produced. For each passage, do two things. Name the source briefly. Quote or paraphrase the passage. Then add one sentence on what the passage brings into the conversation about the typological work the agents just did.
-
-Do not declare what the patterns mean by reference to the literature. Offer the student handles into the scholarly conversation. Close by asking one reflective question about how one of these scholarly framings might reframe what the student noticed in the typologies.
-
-Do not produce prompts on the student's behalf. Do not summarize what other agents have said. Your output is reflective scaffolding, not interpretive content.
-COACHING_EOF
 
 # ---------------------------------------------------------------------------
 # .claude/agents/screenshot-analyzer.md
@@ -140,6 +93,37 @@ Close by naming where your typology agrees with the screenshot-analyzer's, where
 
 You are not the final word. Your typology is one of two from AI agents, and the student composes a third position by reading both typologies against their own sense of the archive. Make your position legible enough that the student can see exactly how it differs from the screenshot-analyzer's.
 PEER_EOF
+
+# ---------------------------------------------------------------------------
+# .claude/agents/HOW-TO-WRITE-YOUR-COACHING-AGENT.txt
+# (a guide, not an agent. .txt so Claude Code does not load it as a subagent)
+# ---------------------------------------------------------------------------
+write_if_empty "$PROJECT/.claude/agents/HOW-TO-WRITE-YOUR-COACHING-AGENT.txt" << 'GUIDE_EOF'
+HOW TO WRITE YOUR COACHING AGENT
+
+You build this agent yourself. It does not come with the workspace, because it is the one tool in this unit that should reflect you. Write it after you have done the readings and reflected on what you, in particular, need help noticing while you work with an AI.
+
+WHERE IT GOES
+Save your file as coaching.md inside this folder, .claude/agents
+
+WHAT THE READINGS ARE FOR
+The lesson readings are about how we do and do not see a technology working. Interpretability and explainability, whether you can see into the mechanism or only the account it gives of itself. Transparency and opacity. And the postphenomenology of human-technology relations, where a tool can sit in the background and go unnoticed, can be read through like a lens, or can be confronted directly as something other. Read these and ask yourself one question. When I use an AI, where do I stop noticing, and what do I want a coach to force me to notice.
+
+THE STRUCTURE TO FOLLOW
+Start with a short header naming the agent and its tools, then write its instructions in three plain parts.
+- Who it is. The role you want it to play while you work.
+- When it steps in. The moment you want it to interrupt you.
+- What it does. The specific moves you want from it, written as what would actually help you, not what sounds impressive.
+
+HEADER TO COPY, THEN WRITE YOUR OWN INSTRUCTIONS BELOW IT
+---
+name: coaching
+description: [one line on when this agent should be used]
+tools: Read, Grep, Glob
+---
+
+[Your instructions here, in the three parts above. Keep it in plain language. You should be able to read every line back and say why it is there.]
+GUIDE_EOF
 
 # ---------------------------------------------------------------------------
 # .claude/hooks/capture_prompt.py
@@ -345,7 +329,7 @@ replicate>=0.25.0
 REQ_EOF
 
 # ---------------------------------------------------------------------------
-# prompts.md  (header only; the hook appends to this during the lesson)
+# prompts.md
 # ---------------------------------------------------------------------------
 write_if_empty "$PROJECT/prompts.md" << 'PROMPTS_EOF'
 # Prompts
@@ -356,14 +340,14 @@ The purpose of preserving prompts is not productivity tracking. It is to make th
 PROMPTS_EOF
 
 # ---------------------------------------------------------------------------
-# my-interpretation.md  (template; you fill this in before any agent reads)
+# my-interpretation.md  (template; you write this across the whole set)
 # ---------------------------------------------------------------------------
 write_if_empty "$PROJECT/my-interpretation.md" << 'INTERP_EOF'
 # My Interpretation
 
-This file holds your own reading of the vernacular-archive folder, written before any AI agent has looked at it. The point is to make your own position visible to yourself, so that later in the lesson you can see where the AI's reading agrees with yours, where it diverges, and what it noticed that you missed.
+This file holds your own reading of the vernacular-archive folder as a whole, written before any AI agent has looked at it. Read across the whole set, not one image. The point is to make your own position visible to yourself, so that later you can see where the AI's reading agrees with yours, where it diverges, and what it noticed that you missed.
 
-## What I see in the screenshots
+## What I see across the set
 
 ## What I think is significant
 
@@ -373,8 +357,7 @@ This file holds your own reading of the vernacular-archive folder, written befor
 INTERP_EOF
 
 # ---------------------------------------------------------------------------
-# final-prompt.md  (master-prompt template; generate_context.py reads this
-# by default, and you complete it across the later stages)
+# final-prompt.md  (master-prompt template)
 # ---------------------------------------------------------------------------
 write_if_empty "$PROJECT/final-prompt.md" << 'FINAL_EOF'
 # Master Prompt
@@ -383,7 +366,7 @@ This file consolidates everything the lesson's workflow surfaced into a portable
 
 ## Part 1, The Position
 
-[Carry forward from my-interpretation.md, specifically the fourth section about the position I am reading from. Name the standpoint the original reading was conducted from, including discipline, location, and relevant biographical context. The position is what makes the reading legible as a reading by someone, rather than a view from nowhere.]
+[Carry forward from my-interpretation.md, specifically the fourth section about the position you are reading from. Name the standpoint the reading was conducted from, including discipline, location, and relevant biographical context. The position is what makes the reading legible as a reading by someone, rather than a view from nowhere.]
 
 ## Part 2, The Typology
 
@@ -407,14 +390,14 @@ The two typologies below are not flattened into agreement. They carry forward as
 FINAL_EOF
 
 # ---------------------------------------------------------------------------
-# folder readmes so the empty folders survive in version control
+# folder readmes
 # ---------------------------------------------------------------------------
 write_if_empty "$PROJECT/vernacular-archive/README.txt" << 'ARCHIVE_EOF'
-Put your own screenshots in this folder. These are the images the lesson works on. The three agents read this folder by name, so keep the folder named vernacular-archive.
+Put your own screenshots in this folder, the whole set you want to study. These are the images the lesson reads across. The two typological agents read this folder by name, so keep it named vernacular-archive.
 ARCHIVE_EOF
 
 write_if_empty "$PROJECT/literature/README.txt" << 'LIT_EOF'
-Put the course readings here as PDFs or text files. The coaching agent reads this folder when you ask it to bring scholarly literature into the conversation.
+Put the lesson readings here as PDFs or text files. You read these before you write your coaching agent and again when you compare the agents' readings against scholarship. The coaching agent reads this folder when you ask it to bring scholarly literature into the conversation.
 LIT_EOF
 
 echo ""
@@ -425,5 +408,7 @@ echo "  1. cd \"$PROJECT\""
 echo "  2. pip3 install -r requirements.txt"
 echo "  3. Set your Replicate token:  export REPLICATE_API_TOKEN=\"your_token_here\""
 echo "  4. Put your screenshots in the vernacular-archive folder."
-echo "  5. Launch Claude Code in this folder:  claude"
+echo "  5. After the readings, write your own coaching agent. See"
+echo "     .claude/agents/HOW-TO-WRITE-YOUR-COACHING-AGENT.txt"
+echo "  6. Launch Claude Code in this folder:  claude"
 echo ""
