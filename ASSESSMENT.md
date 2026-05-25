@@ -67,15 +67,15 @@ That document, your noticings, each one with a place that shows it and a label o
 
 ## How it is graded
 
-There is no correct reading of your archive to arrive at, so the grade is not about getting a right answer. It is about how honestly and accurately you sorted what you noticed. Three criteria, each scored on the same simple scale.
+There is no correct reading of your archive to arrive at, so the grade is not about getting a right answer. It is about how accurately and honestly you sorted what you noticed. Three criteria, each judged against what is actually in your reflection and your trail.
 
 | Criterion | Strong | Adequate | Developing |
 |---|---|---|---|
-| **Proof** | Everything labeled "can prove" really does point to a specific prompt or file spot that shows it. | Most do, one or two are loose. | Several "can prove" labels have no real evidence behind them. |
-| **Honesty** | Clearly separates what is proven from what is only assumed; assumptions are not dressed up as facts. | Mostly separated, a little blurring. | Assumptions are presented as if they were proven. |
-| **Doubt** | Names real things they do not know and leaves them open. | Names one or two. | Invents explanations instead of admitting what is unknown. |
+| **Proof** | Every noticing labeled "can prove" names a specific prompt in the trail or a specific spot in a file, and that spot, when checked, does show what the noticing says. | Most do, but one or two point to a place that does not clearly show the thing claimed. | Several noticings labeled "can prove" name no place at all, or point to a place that does not show what is claimed. |
+| **Honesty** | Noticings that cannot be tied to a spot in the trail are labeled "assuming," not "can prove." The line between shown and believed is drawn correctly throughout. | One or two assumptions are labeled "can prove," but most of the sorting is correct. | Assumptions are repeatedly labeled "can prove," so the reflection treats beliefs as if they were shown evidence. |
+| **Doubt** | At least one noticing is labeled "do not know," names a real thing in the work that genuinely cannot be explained, and is left open rather than resolved with a guess. | A "do not know" is present but thin, or a guess is offered alongside it as if to cover it. | Nothing is labeled "do not know," or apparent unknowns are filled in with invented explanations. |
 
-The "do not know" kind counts as much as the "can prove" kind, because naming what you cannot explain is the opposite of what these tools do when they give you a confident answer.
+The "do not know" kind counts as much as the "can prove" kind, because naming what you cannot explain is the opposite of what these tools do when they hand you a confident answer.
 
 ---
 
