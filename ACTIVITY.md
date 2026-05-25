@@ -128,7 +128,7 @@ The full read takes a few minutes. When done:
 
 **What it does and why.** You don't take the model's reading as the truth of your archive, you test it, and here is what you are testing for. Some of what it says is anchored, meaning you can point to something really on the screen that supports it. Some of it only sounds right, meaning it reads as confident and tidy but you can't actually anchor it to anything in the images. Telling those two apart, anchored from merely plausible, is the core skill of the whole unit, and it is what reading the gap concretely means. One thing to watch for, when the model is impressively right about one thing, it tempts you to trust the rest, so being right once is not the same as being anchored everywhere.
 
-With the reading open, search a few spots (Command-F). Look for a place it's impressively right (the trap that makes you over-trust) and a place it admits it can't explain something (often more trustworthy). Then push back.
+With the reading open, use Command-F to jump to specific parts of it. You are looking for two kinds of spot. First, a place where the model is impressively right about something, a detail it got correct that you never told it, because that is the trap: when a tool is clearly right about one thing, you start trusting everything else it said, even the parts it has no real basis for. Second, a place where the model admits it could not explain something, which is often the most trustworthy moment in the whole reading, because it is the one point where the tool stopped performing confidence. Once you have found both, write back to the model and ask it to separate the two for you.
 
 EXACT PROMPT I said:
 > You sound very sure about these six types. But my own reading admits I can't always recover why I took a given screenshot. So tell me honestly, which of your types are anchored in what's really on the screen, and which are you guessing at to give me a clean answer?
@@ -180,7 +180,7 @@ Either path, when you have the image:
 !open context-image-generated.png
 ```
 
-Look hard at the image against your real set. Find where the picture diverges from your real set, what it added that was never there, and what it flattened or dropped. Read the divergence, don't score it right or wrong.
+Open the image and set it beside your real archive in your mind, then look for three specific kinds of difference. What did it add that was never in any of your screenshots, an object, a building, a person. What did it remove or smooth away that was central to your set, in my case it erased every screen and interface, which was the whole subject of my archive. And what did it change the character of, turning something specific and yours into something generic. Write those differences down. You are not deciding whether the image is good or bad, you are locating exactly where its version parts from yours, because each of those points is the gap in visible form.
 
 **SAVE for hand-in:** your generated image.
 
@@ -188,9 +188,9 @@ Look hard at the image against your real set. Find where the picture diverges fr
 
 ## Stage 7, Taking the wheel on the 2D/3D site
 
-**What it does and why.** You move one screenshot into a site that rebuilds it as a space you move through. The rebuild is the tool's reading of your memory, not your memory. Then you direct it, and watch whether it follows you or digs into its own reading. This flips the gap, from the tool drifting to the tool refusing.
+**What it does and why.** You move one screenshot into a site that rebuilds it as a three-dimensional space you can move through. That rebuilt space is the tool's reading of your memory, not your memory, because it had to invent everything your flat screenshot never showed, the depth, the far walls, whatever sat outside the frame. Then you give it an instruction of your own and see what it does with it. Sometimes it changes the scene the way you asked. More often it makes a small gesture toward your instruction and then rebuilds something close to its original version anyway, so the thing you asked for either does not appear or appears and then gets overridden. That second outcome is the point of the stage, because it shows the gap in a new form. In the earlier stages the tool drifted away from what you meant on its own. Here it has your explicit instruction in hand and still returns to its own reading, so you are watching the tool hold its interpretation against yours.
 
-Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you'll see your flat image on the left while the tool builds a 3D space from it on the right. Move through that space for a moment and notice the gap between what it built and what you actually remember being there, because it had to invent the depth and the room beyond the edges, none of which was ever in your picture. Then take the wheel: mask a part of the scene and type a direction of your own, something you'd like it to build instead. Watch closely whether it follows you or quietly returns to its own first reading.
+Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you will see your flat image on the left while the tool builds a three-dimensional version of it on the right. Move through that built space for a moment and notice everything in it that was never in your original picture, the depth it gave flat objects, the parts of the room it invented past the edges of your frame, surfaces it filled in that you never photographed. That invented material is the tool's reading. Then take a turn at directing it: mask one part of the scene and type a specific instruction for what you want there instead, for example asking it to put a window where it placed a wall. Generate the change, then compare the result against what you asked for. Look at the masked area in particular and decide which of these happened: it made the change you asked for, it ignored your instruction and kept its own version, or it changed the area but toward something other than what you asked. That comparison, your instruction against what it actually produced, is the gap you are recording here.
 
 The site doesn't save anything, so you capture it yourself with a screenshot, one before your edit and one after.
 
@@ -242,4 +242,4 @@ This is where the activity ends and the assessment begins. Everything you've mad
 
 ---
 
-This is what the postphenomenology readings name: becoming aware of how the tool works through you while you use it, instead of looking straight through it. That awareness is the whole skill.
+This is what the postphenomenology readings point to: noticing how a tool shapes what you see at the very moment you are seeing through it, rather than letting it shape you without your noticing. Concretely, that means you can now name, for any AI reading of your own material, which parts you can anchor to something real, which parts you are taking on faith, and which parts neither you nor the tool can account for. Holding those three apart, while the tool is actively giving you a confident single answer, is the skill this unit builds.
