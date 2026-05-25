@@ -10,7 +10,7 @@ This is the assessment for the unit. There is nothing new to produce for it. You
 
 Three things. You will already have the first two from the activity.
 
-**1. Your prompt trail.** The file called `prompts.md`. It saved every prompt you sent during the activity, in order. You do not edit it. You submit it as is.
+**1. Your prompt trail.** The file called `prompts.md`, which your coding agent saved on its own during the activity, in order. You do not edit it, you submit it as is. If you worked in a browser chat tool instead and kept your trail by hand, submit that document, it serves the same purpose.
 
 **2. Your saved files.** The files you saved at each stage: `my-interpretation.md`, `screenshot-reading.md`, `peer-reading.md`, your generated image, your two before-and-after screenshots of the site, and `final-prompt.md`.
 

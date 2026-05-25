@@ -16,6 +16,14 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 So: commands you copy, prompts you make your own.
 
+## How to run this activity, and keeping your trail
+
+You do the real work in a coding agent, Claude Code in a terminal, which is what I use, or Cursor, or VS Code with an assistant. The reason is practical: a coding agent saves every prompt you send into a file called `prompts.md` on its own, as you work. That file becomes your trail, and the trail is what your assessment is built on, so letting it save itself means you never have to stop and document anything by hand.
+
+It helps to keep this guide open in a second place while you work, so you can step through the stages without losing your spot. You can open it in a separate window, or you can paste this file into a Claude chat in your browser and simply tell it which stage you just finished and ask for the next one. Then you copy the prompt it points you to and paste it into your coding agent. Working that way is normal and expected, the guide is meant to be followed, not memorized.
+
+If you cannot install a coding agent at all, you can still do the whole activity in a browser chat tool like Claude, Gemini, or ChatGPT, with one change: those tools do not save a `prompts.md` for you, so you keep your own trail by hand. Open a blank document, and each time you send a prompt, paste a copy of it into that document in order. That document is then your trail, and you submit it for the assessment exactly as a coding-agent user submits `prompts.md`. It is a little more work, and the result is the same, a complete record of how you worked.
+
 **A note on your coding agent.** I use Claude Code in this class, but you do not have to. Cursor, VS Code with an assistant, or another agent will all work, because nothing here is special to Claude Code. Two small differences to watch. First, the lines starting with `!` are how Claude Code runs a quick shell command from inside its chat; if your tool does not use the `!` style, just run that same command in a normal terminal window instead (drop the `!`). Second, the way you create custom agents differs by tool, so when a step says "make a coaching agent," do it the way your tool documents, the content of the agent is what matters, not the folder it lives in. If you get stuck adapting any step to your tool, that is a good thing to bring to me.
 
 ---
