@@ -234,7 +234,7 @@ Your `prompts.md` saved every prompt you sent. Look back over it:
 !cat prompts.md
 ```
 
-Then, optionally, turn the coach back on the whole session. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort your own claims directly from the trail above and skip this.
+Then, optionally, turn the coach back on the whole session. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort what you noticed directly from the trail above and skip this.
 
 EXACT PROMPT I used:
 > Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.

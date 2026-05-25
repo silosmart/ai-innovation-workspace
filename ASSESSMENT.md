@@ -86,7 +86,7 @@ That document, your noticings each with a place that shows it and a label, your 
 
 ## How it is graded
 
-There is no correct reading of your archive to arrive at, so the grade is not about getting a right answer. It is about how accurately and honestly you sorted what you noticed. Three criteria, each judged against what is actually in your reflection and your trail.
+There is no correct reading of your archive to arrive at, so the grade is not about getting a right answer. It is about how accurately and honestly you sorted what you noticed, and how well you read your own work through the four relations. Four criteria, each judged against what is actually in your reflection and your trail.
 
 | Criterion | Strong | Adequate | Developing |
 |---|---|---|---|
