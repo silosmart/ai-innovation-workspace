@@ -34,49 +34,57 @@ This is the second of three lessons, and it helps to see how the whole thing fit
 
 ## Before you start: get your archive ready
 
-The material is your own screenshots, the ones already piling up on your phone, taken for reasons you didn't fully plan. Go back through the last month or two. Don't clean them up or pick the flattering ones. Grab what's actually there, up to a few hundred. Then open your workspace folder, find the folder called `vernacular-archive`, and drag your screenshots into it. You also need your own API key for the image stage (Stage 6); the setup lesson covered this, and free options exist.
+The material is your own screenshots, the ones already piling up on your phone, taken for reasons you didn't fully plan. Go back through the last month or two. Don't clean them up or pick the flattering ones. Grab what's actually there, up to a few hundred. Then open your workspace folder, find the folder called `vernacular-archive`, and drag your screenshots into it.
+
+If you don't take many screenshots, that's fine, any personal image collection works, saved photos, things you downloaded, pictures people sent you. The method only needs images you have some relationship to, because the gap is sharpest when you know why you kept them. If you genuinely have nothing of your own to use, there's a small starter set in the workspace you can fall back on, though your own material tends to teach you more.
+
+You do not need a paid API key for this. Stage 6 generates an image, and while I use a Replicate key, that stage also has a free browser option that needs no key and no payment, so don't let the key stop you. The setup lesson covered keys if you do want one.
 
 ---
 
 ## Stage 1, Build the coaching agent
 
-**What it does and why.** You make a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, and this catches them early. You build it once, in your own words, about you. And you build it in rounds, because each round changes how you relate to it, which is the postphenomenology you saw in the video. Making it is a hermeneutic relation, you interpret and shape it. Once it talks back it becomes an alterity relation, a second party. Once it reads the field it can name a background relation, how the model leans. And once you use it without noticing, it becomes embodiment, a lens you look through, which the gap later makes visible again.
+**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, the things you bring to a picture without noticing, so catching them early is what keeps the rest of the reading honest.
 
-First, you want to make sure your coding tool is actually sitting inside your own workspace folder, because most of us have more than one project on our machine and it's easy to be in the wrong one. So run this, which just tells you where you are right now.
+There are two ways to do this stage. The fast way gets you a working coach in under a minute. The deeper way has you build your own across three rounds, and that building is itself the lesson, because each round changes how you relate to the tool, which is the postphenomenology you saw in the video.
+
+**Fast path, use the ready-made coach.** A finished coach file, `coaching.md`, is already in the workspace under `.claude/agents`. You can use it as is and move straight to Stage 2. This is the recommended path if you are newer to this, because it gets you to the actual gap work quickly.
+
+**Deeper path, build your own in three rounds (optional).** If you want to feel the relations rather than just read about them, build it yourself. First make sure your tool is in your workspace folder.
 
 COMMAND:
 ```
 !pwd
 ```
 
-If that comes back with somewhere other than your workspace, you need to move into it, and for that you need the real path to your workspace folder. Here's how to get it without typing anything by hand. On a Mac, find your workspace folder in Finder, right-click it, and hold down the Option key, and you'll see "Copy [folder] as Pathname." On Windows, hold Shift, right-click the folder, and choose "Copy as path." Either way you now have the exact path on your clipboard. Then you type cd, a space, and paste it inside quotes, like this, but with your own path where mine is.
+If that comes back somewhere other than your workspace, you need the real path to your folder. On a Mac, find the folder in Finder, right-click it, hold the Option key, and choose "Copy [folder] as Pathname." On Windows, hold Shift, right-click, and choose "Copy as path." Then type cd, a space, and paste it in quotes, with your own path where mine is.
 
 ```
 cd "/Users/yourname/Downloads/your-workspace-folder"
 ```
 
-**Round one, make the rough coach.** Ask your tool to write a coaching agent that just slows you down.
+Round one, the rough coach, which is the hermeneutic relation, you interpreting and shaping what a reader should be.
 
 EXACT PROMPT I used:
 > Make me a file called coaching.md in the .claude/agents folder. It's my coaching agent. While I'm writing a prompt, I want it to stop me and ask what I'm assuming about the image before I send anything, and ask me one thing I can't answer with yes or no. It asks me questions, it does not write my prompts for me.
 
 IN YOUR OWN WORDS: ask for a coaching agent file that stops you while you write a prompt and asks what you're assuming, nothing fancy yet.
 
-**Round two, let it talk back.** Now revise it so it questions your own reading instead of agreeing with it.
+Round two, let it talk back, which is the alterity relation, a second party rather than a mirror.
 
 EXACT PROMPT I used:
 > Revise my coaching.md so that when I show it my own reading of an image or a set, it does not agree and does not correct me. It pushes on it, asks where my reading might be my own projection rather than something I can point to in the picture, names one place where someone standing somewhere else would read it differently, and asks me why I stand where I do. It is a second party, not a mirror.
 
-IN YOUR OWN WORDS: revise the coach so it argues with your reading from a different position rather than just reflecting it back.
+IN YOUR OWN WORDS: revise the coach so it argues with your reading from a different position rather than reflecting it back.
 
-**Round three, give it the readings and the session view.** Last, revise it so it can ground its questions in your literature folder and, at the end, read your whole prompt trail and name how you were relating to the tool.
+Round three, give it the readings and the long view, which is the background relation, where it can name how the model leans.
 
 EXACT PROMPT I used:
-> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without forcing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt trail, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
+> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without pushing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt trail, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
 
 IN YOUR OWN WORDS: revise the coach so it draws on your readings and, at the end, reads your whole trail back and names the four relations as a reading, not a verdict.
 
-Note: the end-of-session read-back only has something to work with once you have actually built up a trail, so you run that part last, in Stage 9, not now.
+Either path, the end-of-session read-back only has something to work with once you have built up a trail, so you run that part last, in Stage 9, not now.
 
 ---
 
@@ -98,9 +106,9 @@ Write your answers under four headings, in your own words: what I see across the
 
 ---
 
-## Stage 3, The AI reads your archive
+## Stage 3, A language model reads your archive and offers its first reading
 
-**What it does and why.** The AI reads across your whole set for the first time, and you call your coaching agent on the prompt first so it brings your assumption into the open before anything runs. The gap between your reading and the tool's reading appears here.
+**What it does and why.** Here a large language model with vision reads across your whole set for the first time, and you call your coaching agent on the prompt first so your own assumption is in the open before the model speaks. A quick note on terms, since precision matters here. By "reading" I mean the model's interpretation of your images rendered as text, the kinds of things it says you keep capturing. And this model does not see your pictures the way you do, it works over a numerical encoding of the pixels and predicts likely text, so it has no access to why you saved anything, only to patterns. That limit is the point, because the gap between your reading and the model's first reading appears right here, and it appears precisely because the model is working from patterns while you were working from intention.
 
 EXACT PROMPT I said:
 > Read across all twenty-six screenshots in my vernacular-archive folder as a set, not one by one, and tell me what kinds I keep capturing and what someone would need to notice to read each kind. But before you run that, use my coaching agent on the prompt I just wrote and have it ask me what I'm assuming first.
@@ -116,9 +124,9 @@ The full read takes a few minutes. When done:
 
 ---
 
-## Stage 4, Test the reading
+## Stage 4, Test the reading for where it is anchored and where it only sounds right
 
-**What it does and why.** You don't take the reading as truth, you test where it's anchored in what's really there versus where it just sounds right. Telling those apart is the core skill, and it is reading the gap.
+**What it does and why.** You don't take the model's reading as the truth of your archive, you test it, and here is what you are testing for. Some of what it says is anchored, meaning you can point to something really on the screen that supports it. Some of it only sounds right, meaning it reads as confident and tidy but you can't actually anchor it to anything in the images. Telling those two apart, anchored from merely plausible, is the core skill of the whole unit, and it is what reading the gap concretely means. One thing to watch for, when the model is impressively right about one thing, it tempts you to trust the rest, so being right once is not the same as being anchored everywhere.
 
 With the reading open, search a few spots (Command-F). Look for a place it's impressively right (the trap that makes you over-trust) and a place it admits it can't explain something (often more trustworthy). Then push back.
 
@@ -131,7 +139,7 @@ IN YOUR OWN WORDS: tell the AI it sounds sure, remind it your own reading admits
 
 ## Stage 5, A second reading that disagrees
 
-**What it does and why.** You run a second agent over the same set from a different stance. They disagree, which proves the gap isn't error, it's position. There's no single right reading.
+**What it does and why.** You run a second agent over the same set, but from a different stance, and that stance comes from the readings. The first agent sorted by what's on the screen, surface and composition. The second sorts by intention, why each image was saved, which is the question the postphenomenology and Frosh push you toward, reading media for the intention and reflection they carry. When two competent readings of the same archive disagree, it proves the gap isn't a malfunction, it's a position. There's no single right reading, only readings from somewhere, which is the core claim of the whole unit.
 
 EXACT PROMPT I said:
 > Use my peer-screenshot agent on the same twenty-six in vernacular-archive. The first agent sorted by the formal relationship between interface and framed content. Sort instead by the capturer's intention in keeping each one, the act of saving rather than the look of the image. Tell me where this reading and the first one part ways, and why the difference comes from the stance, not the pictures.
@@ -149,7 +157,7 @@ When done:
 
 ## Stage 6, Turn the reading into a picture
 
-**What it does and why.** You force the reading into an image, because words let a model hedge and a picture has to commit. The moment it commits, you see where it diverges from your real archive. This is the gap made visible.
+**What it does and why.** You turn the reading into an image, because words let a model hedge and a picture has to commit. The moment it commits, you see where it diverges from your real archive. This is the gap made visible.
 
 You distill your reading into a short image prompt. Here is the one I used, as a model:
 
@@ -165,7 +173,7 @@ Note that the prompt explicitly asks for no text, which makes it easy to spot wh
 ```
 The key is read from your environment, it is not written in the script, so the file is safe to share. If you see an error that the token is not set, your key is not loaded in this terminal; either set it as the setup lesson showed, or use Path B.
 
-*Path B, no key, free and in the browser.* You do not need Replicate or any key. Take the same distilled prompt and paste it into a free image generator in your browser. Good free options are the image tools on Hugging Face Spaces, Google's image generation in its free tier, or Bing Image Creator. Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model is not the point, the divergence is, so any of these is fine.
+*Path B, no key, free and in the browser.* You don't need Replicate or any key for this. Take the same distilled prompt and paste it into a free image generator in your browser. Two reliable free options: the official FLUX image space on Hugging Face at **https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell** (this is the same model my script uses, so your result will be close to mine), or Bing Image Creator at **https://www.bing.com/create** (free with a Microsoft account, fifteen fast generations a day). Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model isn't the point here, the divergence is, so any of these is fine.
 
 Either path, when you have the image:
 ```
@@ -182,9 +190,9 @@ Look hard at the image against your real set. Find where the picture diverges fr
 
 **What it does and why.** You move one screenshot into a site that rebuilds it as a space you move through. The rebuild is the tool's reading of your memory, not your memory. Then you direct it, and watch whether it follows you or digs into its own reading. This flips the gap, from the tool drifting to the tool refusing.
 
-Go to **2d3d.reframing.online**. Upload one screenshot. The flat image loads left, the 3D space builds right. Move through it and feel the gap from what you remember. Then mask a part and type a direction of your own. Watch whether it follows or digs in.
+Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you'll see your flat image on the left while the tool builds a 3D space from it on the right. Move through that space for a moment and notice the gap between what it built and what you actually remember being there, because it had to invent the depth and the room beyond the edges, none of which was ever in your picture. Then take the wheel: mask a part of the scene and type a direction of your own, something you'd like it to build instead. Watch closely whether it follows you or quietly returns to its own first reading.
 
-The site saves nothing, so capture it yourself.
+The site doesn't save anything, so you capture it yourself with a screenshot, one before your edit and one after.
 
 **SAVE for hand-in:** two screenshots, before and after your edit.
 
@@ -211,24 +219,26 @@ IN YOUR OWN WORDS: ask your tool to fill your master-prompt file from your three
 
 ## Stage 9, Close the loop (bridge to the assessment)
 
-**What it does and why.** Everything you did left a trail, and that trail is the proof you did the real thinking. You close the activity by turning your coaching agent back on your whole session, which gives you the raw material for your assessment reflection.
+**What it does and why.** Everything you did left a trail, and that trail is the proof you did the real thinking rather than guessed well. So this is where the doing becomes evidence, and the evidence becomes the basis for honest reflection in the assessment.
 
-Your `prompts.md` saved every prompt you sent:
+Your `prompts.md` saved every prompt you sent. Look back over it:
 ```
 !cat prompts.md
 ```
 
-EXACT PROMPT I said:
+Then, optionally, turn the coach back on the whole session. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort your own claims directly from the trail above and skip this.
+
+EXACT PROMPT I used:
 > Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.
 
 IN YOUR OWN WORDS: ask your coaching agent to read your whole trail back, name what you kept reaching for and never tried, and name how you related to the tool through the four relations.
 
-When done:
+If you ran it:
 ```
 !open coaching-readback.md
 ```
 
-This readback is where the activity ends and the assessment begins. **What you submit and how it is graded is in the separate ASSESSMENT file.** Take the coach's reading there as raw material, the sorting and judgment are yours.
+This is where the activity ends and the assessment begins. Everything you've made, your trail and your saved files, is now your evidence. **What you submit and how it is graded is in the separate ASSESSMENT file.** Take the coach's reading, if you ran it, as raw material, the sorting and judgment are yours.
 
 ---
 
