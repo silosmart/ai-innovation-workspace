@@ -16,6 +16,8 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 So: commands you copy, prompts you make your own.
 
+**A note on your coding agent.** I use Claude Code in this class, but you do not have to. Cursor, VS Code with an assistant, or another agent will all work, because nothing here is special to Claude Code. Two small differences to watch. First, the lines starting with `!` are how Claude Code runs a quick shell command from inside its chat; if your tool does not use the `!` style, just run that same command in a normal terminal window instead (drop the `!`). Second, the way you create custom agents differs by tool, so when a step says "make a coaching agent," do it the way your tool documents, the content of the agent is what matters, not the folder it lives in. If you get stuck adapting any step to your tool, that is a good thing to bring to me.
+
 ---
 
 ## Where this lesson sits: the three-lesson arc
@@ -38,7 +40,7 @@ The material is your own screenshots, the ones already piling up on your phone, 
 
 ## Stage 1, Build the coaching agent
 
-**What it does and why.** You make a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, and this catches them early. You build it once, in your own words, about you.
+**What it does and why.** You make a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, and this catches them early. You build it once, in your own words, about you. And you build it in rounds, because each round changes how you relate to it, which is the postphenomenology you saw in the video. Making it is a hermeneutic relation, you interpret and shape it. Once it talks back it becomes an alterity relation, a second party. Once it reads the field it can name a background relation, how the model leans. And once you use it without noticing, it becomes embodiment, a lens you look through, which the gap later makes visible again.
 
 First, you want to make sure your coding tool is actually sitting inside your own workspace folder, because most of us have more than one project on our machine and it's easy to be in the wrong one. So run this, which just tells you where you are right now.
 
@@ -53,10 +55,28 @@ If that comes back with somewhere other than your workspace, you need to move in
 cd "/Users/yourname/Downloads/your-workspace-folder"
 ```
 
-EXACT PROMPT I said:
-> Make me a file called coaching.md in the .claude/agents folder. It's my coaching agent. While I'm writing a prompt, I want it to slow me down and ask what I'm assuming about the image before I send anything. At the end, have it read back over all my prompts and show me what I kept asking for and what I never thought to ask. Then have it name how I was relating to the tool across the session, using Ihde's four relations, embodiment, hermeneutic, alterity, and background, and tell me it's offering that as a reading, not a fact. And have it pull from the postphenomenology readings in my literature folder, Ihde, Verbeek, Rosenberger, and Wiltse, to back that up. It asks me questions, it doesn't write my prompts for me.
+**Round one, make the rough coach.** Ask your tool to write a coaching agent that just slows you down.
 
-IN YOUR OWN WORDS: ask your tool to make a coaching agent that slows you down and asks what you're assuming, reads your whole prompt history back at the end, names how you related to the tool through the four relations as a reading not a fact, and draws on the readings in your literature folder. It asks, it doesn't write your prompts.
+EXACT PROMPT I used:
+> Make me a file called coaching.md in the .claude/agents folder. It's my coaching agent. While I'm writing a prompt, I want it to stop me and ask what I'm assuming about the image before I send anything, and ask me one thing I can't answer with yes or no. It asks me questions, it does not write my prompts for me.
+
+IN YOUR OWN WORDS: ask for a coaching agent file that stops you while you write a prompt and asks what you're assuming, nothing fancy yet.
+
+**Round two, let it talk back.** Now revise it so it questions your own reading instead of agreeing with it.
+
+EXACT PROMPT I used:
+> Revise my coaching.md so that when I show it my own reading of an image or a set, it does not agree and does not correct me. It pushes on it, asks where my reading might be my own projection rather than something I can point to in the picture, names one place where someone standing somewhere else would read it differently, and asks me why I stand where I do. It is a second party, not a mirror.
+
+IN YOUR OWN WORDS: revise the coach so it argues with your reading from a different position rather than just reflecting it back.
+
+**Round three, give it the readings and the session view.** Last, revise it so it can ground its questions in your literature folder and, at the end, read your whole prompt trail and name how you were relating to the tool.
+
+EXACT PROMPT I used:
+> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without forcing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt trail, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
+
+IN YOUR OWN WORDS: revise the coach so it draws on your readings and, at the end, reads your whole trail back and names the four relations as a reading, not a verdict.
+
+Note: the end-of-session read-back only has something to work with once you have actually built up a trail, so you run that part last, in Stage 9, not now.
 
 ---
 
@@ -137,17 +157,22 @@ You distill your reading into a short image prompt. Here is the one I used, as a
 
 Note that the prompt explicitly asks for no text, which makes it easy to spot where the model diverges from what you asked.
 
-This uses a script and your API key:
+**There are two ways to generate the picture, pick the one that fits what you have.**
+
+*Path A, with a Replicate key.* If you set up a Replicate key earlier, the workspace script does it for you. It reads your prompt, sends it to Replicate, and saves the result.
 ```
 !python3 generate_context.py
 ```
+The key is read from your environment, it is not written in the script, so the file is safe to share. If you see an error that the token is not set, your key is not loaded in this terminal; either set it as the setup lesson showed, or use Path B.
 
-When done:
+*Path B, no key, free and in the browser.* You do not need Replicate or any key. Take the same distilled prompt and paste it into a free image generator in your browser. Good free options are the image tools on Hugging Face Spaces, Google's image generation in its free tier, or Bing Image Creator. Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model is not the point, the divergence is, so any of these is fine.
+
+Either path, when you have the image:
 ```
 !open context-image-generated.png
 ```
 
-Look hard at the image against your real set. Find where the picture diverges from your real set, what it added that was never there, and what it flattened or dropped. Read the divergence, don't score it right or wrong. (Free image tools exist if you don't use Replicate, see the setup.)
+Look hard at the image against your real set. Find where the picture diverges from your real set, what it added that was never there, and what it flattened or dropped. Read the divergence, don't score it right or wrong.
 
 **SAVE for hand-in:** your generated image.
 
