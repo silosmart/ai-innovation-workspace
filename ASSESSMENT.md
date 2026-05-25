@@ -2,84 +2,89 @@
 
 A unit in critical AI literacy. M.A. in Artificial Intelligence Innovation.
 
-This is the assessment for the unit. It is built directly on the activity, so there is nothing extra to produce at the end. Everything you submit, you already made while doing the activity. The assessment grades how honestly you read the gap between what you meant and what the tools returned, using your own evidence.
+This is the assessment for the unit. There is nothing new to produce for it. You already made everything you need while doing the activity. Here you go back over that work, write down what you noticed about each tool, and judge how sure you can be about each thing you noticed. That judging is the skill the whole unit teaches, and it is what gets graded.
 
 ---
 
-## What you submit, three things
+## What you submit
 
-**1. Your prompt trail.**
-Your `prompts.md` file. It saved every prompt you sent during the activity, in order, automatically, plus the site work you logged by hand. This is the record of how you actually worked. It doubles as proof that you ran each tool and got something back, so there is no separate "proof it functioned." The trail is the proof.
+Three things. You will already have the first two from the activity.
 
-**2. Your artifacts.**
-The actual files you produced during the activity:
-- `my-interpretation.md`, your own reading
-- `screenshot-reading.md`, the first agent's reading
-- `peer-reading.md`, the second agent's reading
-- your generated image
-- two screenshots of your 2D/3D edit, before and after
-- `final-prompt.md`, your master prompt
+**1. Your prompt trail.** The file called `prompts.md`. It saved every prompt you sent during the activity, in order. You do not edit it. You submit it as is.
 
-These are what came back from each tool. Collected, not polished into a website.
+**2. Your saved files.** The files you saved at each stage: `my-interpretation.md`, `screenshot-reading.md`, `peer-reading.md`, your generated image, your two before-and-after screenshots of the site, and `final-prompt.md`.
 
-**3. Your reflection.**
-The real intellectual work. You take your claims about the tools and sort them into three, with evidence from your trail. This is the part you write.
+**3. Your reflection.** A new document you write, by following the steps below.
 
 ---
 
-## How the reflection works, step by step
+## How to write the reflection, step by step
 
-You do this after the activity, using your own trail and artifacts. There is one prompt that helps you assemble the raw material, then the sorting and judgment are yours.
+You are going to end up with a short document that lists what you noticed about the tools and, for each thing, says how sure you can be about it and why. Here is exactly how to get there.
 
-### Step 1, turn the coach back on your whole session
+### Step 1, open your trail and your files
 
-This is the same coaching agent you built at the start of the activity. Now you point it at your entire prompt trail so it brings your patterns into the open. This is a real-time prompt you run.
+Open `prompts.md` and read back through your own prompts from the session, top to bottom. Keep your saved files nearby too (`screenshot-reading.md`, `peer-reading.md`, your image, your site screenshots, `final-prompt.md`), because you will point to them.
 
-EXACT PROMPT to run:
-> Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.
+### Step 2, write down what you noticed about each tool
 
-The coach gives you a reading of your session, what you kept asking, what you avoided, and which of the four relations you were in. You do not submit this as the answer. You use it as raw material to sort in Step 2.
+Go tool by tool. For each tool you used, write one or two plain sentences saying what you noticed it doing. Do this for at least five things in total, across at least three different tools, so you have enough to work with.
 
-### Step 2, sort your claims into three
+Here are examples of what one noticing looks like, so the form is clear:
+- "The language model sorted my archive into six confident types."
+- "The image added pale objects on a shelf that were never in my screenshots."
+- "The image had text on the road even though my prompt said no text."
+- "The site gave me more nurses when I asked for skylights."
+- "The second agent split the notification screenshots differently than the first agent did."
 
-Go through what you claimed about the tools across the activity, and put each claim into one of three:
+Write yours about your own archive and your own tools, not these.
 
-1. **What I can prove.** I can point to a specific prompt or output in my trail. Example: the image generator dropped the screen, here is the prompt and here is the image.
-2. **What I'm assuming.** It feels true, but I cannot anchor it to anything in my trail. I say so plainly.
-3. **What I don't know.** Unresolved. I name it and leave it open instead of inventing an answer.
+### Step 3, for each thing you noticed, point to where you can see it
 
-### Step 3, argue whether this matters
+Next to each noticing, name the exact place that shows it. This is what turns a noticing into something you can stand behind. The place is either a specific prompt in your `prompts.md`, or a specific spot in one of your saved files or your image.
 
-Add a short closing: based on what you actually saw doing this, say whether you think reading the gap is a skill worth having, and why or why not. Your own observations, not a textbook answer.
+For example:
+- "The image had text on the road even though my prompt said no text." → Where I can see it: my prompt in `prompts.md` ends with the words no text, and the road text is visible in the lower middle of `context-image-generated.png`.
+- "The site gave me more nurses when I asked for skylights." → Where I can see it: my before-and-after screenshots, and the note I logged in `prompts.md`.
 
----
+If you cannot find a place that shows it, that is not a failure, it is information. It means you are remembering or assuming rather than proving, which is exactly what Step 4 sorts out.
 
-## How it is graded, the three criteria
+### Step 4, sort each thing you noticed into one of three kinds
 
-There is no right reading to land on, so the grade is not about getting a correct answer. It is about the quality and honesty of the sorting.
+Now label every noticing with one of these three. This is the core of the assessment.
 
-1. **Proof.** Does each claim in your "what I can prove" pile actually point to a real prompt or output in your trail?
-2. **Honesty.** Do you separate what you can prove from what you are only assuming, instead of dressing assumptions up as facts?
-3. **Doubt.** Do you name what you genuinely don't know, instead of inventing an answer to fill the gap?
+- **Can prove.** You pointed to a real prompt or a real spot in a file in Step 3, and anyone looking at it would see the same thing.
+- **Assuming.** It feels true and you believe it, but you cannot point to something in your trail or files that settles it. For example, "the site ignored me on purpose," when all you can actually show is that it gave you nurses, not why.
+- **Do not know.** Something you noticed but genuinely cannot explain, and you choose to leave open instead of inventing a reason. For example, "the model found a purple icon in two screenshots and could not say why, and neither can I."
 
-The "what I don't know" pile counts as much as the "what I can prove" pile, because naming your doubt is the opposite of what these tools do.
+### Step 5, write one short closing paragraph
 
----
+In a few sentences, say whether you think this skill, telling what you can prove from what you are assuming when working with an AI tool, is worth having, and why or why not, based on what you actually saw doing this. There is no right answer here. You are reflecting from your own experience.
 
-## Why the assessment is built this way, your justification to walk through
-
-**It grades the exact skill the unit taught.** The whole unit is about reading the gap between the tool's reading and your own intention, with evidence. The reflection asks for precisely that, anchored claims versus floating ones, plus named doubt. So the assessment and the learning objective are the same thing.
-
-**It is defensible.** Because every claim has to point to a real moment in the student's own trail, two graders reading the same trail land in the same place. The grade is anchored to evidence, not taste.
-
-**It is unfakeable.** A reflection written by an AI cannot cite the real nodes in a particular student's prompt trail. The proof is personal and specific, so the assessment resists the very automation it teaches students to read critically.
-
-**It scales honestly.** At a large enrollment, a script can check that each cited claim points to a real prompt, and an AI grader can do a first pass. But the final judgment stays human, because treating the AI grader's score as one more reading from a position, to be weighed against the evidence, is the course's own skill applied to grading itself.
-
-**It fits the student body.** These are interdisciplinary working adults in a non-technical track. The assessment asks for honest reasoning about their own material, not code, not correct technical answers, so it meets them where they are while still being rigorous.
+That document, your noticings, each one with a place that shows it and a label of can-prove, assuming, or do-not-know, plus the closing paragraph, is your reflection. Submit it with your trail and files.
 
 ---
 
-## Where the prompts live in the repository
+## How it is graded
 
-The one prompt this assessment uses, the coach readback in Step 1, is in the repository prompt list alongside the activity prompts, so students copy or adapt it like any other. Both the exact wording and a plain description you can put in your own words are listed there.
+There is no correct reading of your archive to arrive at, so the grade is not about getting a right answer. It is about how honestly and accurately you sorted what you noticed. Three criteria, each scored on the same simple scale.
+
+| Criterion | Strong | Adequate | Developing |
+|---|---|---|---|
+| **Proof** | Everything labeled "can prove" really does point to a specific prompt or file spot that shows it. | Most do, one or two are loose. | Several "can prove" labels have no real evidence behind them. |
+| **Honesty** | Clearly separates what is proven from what is only assumed; assumptions are not dressed up as facts. | Mostly separated, a little blurring. | Assumptions are presented as if they were proven. |
+| **Doubt** | Names real things they do not know and leaves them open. | Names one or two. | Invents explanations instead of admitting what is unknown. |
+
+The "do not know" kind counts as much as the "can prove" kind, because naming what you cannot explain is the opposite of what these tools do when they give you a confident answer.
+
+---
+
+## How this is collected
+
+Everything here is plain text and image files. You submit them through the course platform, either by uploading the files or by uploading your whole workspace folder. Because the work is just files, it does not depend on any one system, it works the same on any course platform.
+
+---
+
+## Why it is built this way
+
+You do not produce anything extra for the grade. The trail saved itself while you worked, so the evidence is a byproduct of doing the activity, not a separate task on top of it. The reflection then asks you to do the one thing the unit is about, tell what you can stand behind from what you are guessing, using your own work as the evidence. So the thing you are graded on and the thing you were taught are the same thing.
