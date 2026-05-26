@@ -217,7 +217,7 @@ Then log it by hand: ask your tool to add a note to prompts.md describing what y
 
 ## Stage 8, Carry your meaning forward in a master prompt
 
-**What it does and why.** Every tool lost something of your meaning. So you write one master prompt that holds your position and your two disagreeing readings, so your meaning carries forward past any single tool.
+**What it does and why.** Every tool lost something of what you meant. So you gather three files into one: your own take from `my-interpretation.md`, the first agent's reading from `screenshot-reading.md`, and the second agent's reading from `peer-reading.md`. You put your take at the top and keep the two agent readings as separate sections, because they disagree and that disagreement is what you want to carry forward. This one file is what you hand to a future AI session so it starts with your point of view and both readings, instead of starting cold.
 
 ```
 !open final-prompt.md
@@ -226,7 +226,7 @@ Then log it by hand: ask your tool to add a note to prompts.md describing what y
 EXACT PROMPT I said:
 > Fill in my final-prompt file. Pull my position from my interpretation file, and the two readings from the screenshot-reading and peer-reading files. Keep my position up front, and keep the two readings separate, don't merge them, because the point is they disagree.
 
-IN YOUR OWN WORDS: ask your tool to fill your master-prompt file from your three files, keep your position first, and keep the two readings separate rather than merged, because their disagreement is part of what you carry forward.
+IN YOUR OWN WORDS: ask the tool to make one file called `final-prompt.md`, put your own take from `my-interpretation.md` at the top, then paste the first agent's reading from `screenshot-reading.md` and the second agent's reading from `peer-reading.md` as two separate sections, and don't blend the two agent readings together, because they disagree and you want that kept visible.
 
 **SAVE for hand-in:** `final-prompt.md`.
 
@@ -248,9 +248,9 @@ A full example trail is in `prompts.md` in this repo, the real record from when 
 Then, optionally, turn the coach back on the whole session. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort what you noticed directly from the trail above and skip this.
 
 EXACT PROMPT I used:
-> Use my coaching agent to read back over my whole prompts.md. Tell me what I kept reaching for and what I never tried, and then name how I was relating to the tool across the session, through the four relations.
+> Use my coaching agent to read back over my whole prompts.md. Tell me which kinds of prompts I made over and over, and which angles I never prompted from at all. Then name which of the four relations, hermeneutic, alterity, background, embodiment, showed up in how I worked across the session, and point to a real prompt for each one.
 
-IN YOUR OWN WORDS: ask your coaching agent to read your whole trail back, name what you kept reaching for and never tried, and name how you related to the tool through the four relations.
+IN YOUR OWN WORDS: ask your coaching agent to read your whole trail back, name the kinds of prompts you repeated and the angles you never prompted from, and name which of the four relations showed up in how you worked, with a real prompt as the example for each.
 
 If you ran it:
 ```
