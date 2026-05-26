@@ -10,7 +10,7 @@ The unit has three parts.
 
 A short video introducing the concept and demonstrating it once.
 
-**Watch here:** [VIDEO LINK GOES HERE]
+**Watch here:** https://www.youtube.com/watch?v=D02clYzQKIw
 
 ## 2. Interactive activity
 

@@ -2,7 +2,7 @@
 
 A unit in critical AI literacy. M.A. in Artificial Intelligence Innovation.
 
-This is the interactive activity for the unit. It is everything you need to do the lesson yourself, on your own time, with your own screenshots. Watch the lecture video first for the concept, then work through these stages here. When you finish, see the separate ASSESSMENT file for what you submit and how it is graded.
+This is the interactive activity for the unit. It is everything you need to do the lesson yourself, on your own time, with your own screenshots. Watch the lecture video first for the concept (https://www.youtube.com/watch?v=D02clYzQKIw), then work through these stages here. When you finish, see the separate ASSESSMENT file for what you submit and how it is graded.
 
 **The aim:** find and value the gap between what you meant by your own images and what the tool makes of them. Reading that gap teaches you about the tool, about yourself, and about how to keep your own meaning first as these tools get better at predicting us.
 
