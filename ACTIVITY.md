@@ -4,9 +4,9 @@ A unit in critical AI literacy. M.A. in Artificial Intelligence Innovation.
 
 This is the interactive activity for the unit. It is everything you need to do the lesson yourself, on your own time, with your own screenshots. Watch the lecture video first for the concept (https://www.youtube.com/watch?v=D02clYzQKIw), then work through these stages here. When you finish, see the separate ASSESSMENT file for what you submit and how it is graded.
 
-**The aim:** find and value the gap between what you meant by your own images and what the tool makes of them. Reading that gap teaches you about the tool, about yourself, and about how to keep your own meaning first as these tools get better at predicting us.
+**The aim:** find and value the gap between what you meant by your own images and what the tool makes of them. Reading that gap teaches you about the tool, about yourself, and about how to keep your own meaning first.
 
-**A note on the video and this activity.** The lecture video demonstrates two of the nine stages below, Stage 3 (Reading the Archive, where the model reads your screenshots) and Stage 9 (Reading the Trail, where the coach reads your prompt record back to you). Those two stages are marked below. The video shows them so you can see the gap appear and the look-back that closes it. This activity is where you run all nine stages yourself, on your own screenshots.
+**A note on the video and this activity.** The lecture video demonstrates two of the nine stages below, Stage 3 (Reading the Archive, where the model reads your screenshots) and Stage 9 (Reading the Trail, where the coach reads your prompt record back to you). Those two stages are marked below. The video shows them so you can watch the gap appear in Stage 3 and watch the coach read your prompts back in Stage 9. This activity is where you run all nine stages yourself, on your own screenshots.
 
 ---
 
@@ -18,23 +18,23 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 So: commands you copy, prompts you make your own.
 
-## How to run this activity, and keeping your trail
+## How to run this activity, and keeping your prompt record
 
-You do the real work in a coding agent, Claude Code in a terminal, which is what I use, or Cursor, or VS Code with an assistant. The reason is practical: a coding agent saves every prompt you send into a file called `prompts.md` on its own, as you work. That file becomes your trail, and the trail is what your assessment is built on, so letting it save itself means you never have to stop and document anything by hand.
+You do the real work in a coding agent, Claude Code in a terminal, which is what I use, or Cursor, or VS Code with an assistant. The reason is practical: a coding agent saves every prompt you send into a file called `prompts.md` on its own, as you work. That file becomes your prompt record, and that record is what your assessment is built on, so letting it save itself means you do not have to stop and document anything by hand.
 
 It helps to keep this guide open in a second place while you work, so you can step through the stages without losing your spot. You can open it in a separate window, or you can paste this file into a Claude chat in your browser and simply tell it which stage you just finished and ask for the next one. Then you copy the prompt it points you to and paste it into your coding agent. Working that way is normal and expected, the guide is meant to be followed, not memorized.
 
-If you cannot install a coding agent at all, you can still do the whole activity in a browser chat tool like Claude, Gemini, or ChatGPT, with one change: those tools do not save a `prompts.md` for you, so you keep your own trail by hand. Open a blank document, and each time you send a prompt, paste a copy of it into that document in order. That document is then your trail, and you submit it for the assessment exactly as a coding-agent user submits `prompts.md`. It is a little more work, and the result is the same, a complete record of how you worked.
+If you cannot install a coding agent at all, you can still do the whole activity in a browser chat tool like Claude, Gemini, or ChatGPT, with one change: those tools do not save a `prompts.md` for you, so you keep your own prompt record by hand. Open a blank document, and each time you send a prompt, paste a copy of it into that document in order. That document is then your prompt record, and you submit it for the assessment exactly as a coding-agent user submits `prompts.md`. It is a little more work, and the result is the same, a complete record of how you worked.
 
 **A note on your coding agent.** I use Claude Code in this class, but you do not have to. Cursor, VS Code with an assistant, or another agent will all work, because nothing here is special to Claude Code. Two small differences to watch. First, the lines starting with `!` are how Claude Code runs a quick shell command from inside its chat; if your tool does not use the `!` style, just run that same command in a normal terminal window instead (drop the `!`). Second, the way you create custom agents differs by tool, so when a step says "make a coaching agent," do it the way your tool documents, the content of the agent is what matters, not the folder it lives in. If you get stuck adapting any step to your tool, that is a good thing to bring to me.
 
 ---
 
-## Where this lesson sits: the three-lesson arc
+## Where this lesson fits in the three-lesson arc
 
 This is the second of three lessons, and it helps to see how the whole thing fits together.
 
-**Lesson one** introduced the readings and taught you to assemble your own archive of whatever image or text content matters to you. Its assessment asked you to understand the four postphenomenological relations and to situate them in Peter-Paul Verbeek's work on the morality of media, and in the language of transparency and opacity drawn from Heather Wiltse. You then historicized that trajectory through Paul Frosh, asking what differs between shared media and personalized media, and how the content we make both reflects us and lets us reflect on it. You justified your reading of the literature in writing, across a couple of media types you chose for your archive, and you kept a coding-tool record showing you can call different media and texts on request and analyze that relationship through the lens of mediation theory, alongside the aims of digital humanities itself.
+**Lesson one** introduced the course readings and taught you to assemble your own archive of whatever image or text content matters to you. Its assessment asked you to understand the four postphenomenological relations and to situate them in Peter-Paul Verbeek's work on the morality of media, and in the language of transparency and opacity drawn from Heather Wiltse. You then historicized that trajectory through Paul Frosh, asking what differs between shared media and personalized media, and how the content we make both reflects us and lets us reflect on it. You justified your interpretation of the literature in writing, across a couple of media types you chose for your archive, and you kept a coding-tool record showing you can call different media and texts on request and analyze that relationship through the lens of mediation theory, alongside the aims of digital humanities itself.
 
 **This lesson, lesson two,** is where that theory meets your own archive and your own hands. You put your archive in front of the tools and learn to find and read the gap between what you meant and what the tools make of it.
 
@@ -54,7 +54,7 @@ You do not need a paid API key for this. Stage 6 generates an image, and while I
 
 ## Stage 1, Build the coaching agent
 
-**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters because the gap starts with your own assumptions, the things you bring to a picture without noticing, so catching them early is what keeps the rest honest.
+**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters because the gap starts with your own assumptions, the things you bring to a picture without thinking about them, so catching them early is what keeps the rest honest.
 
 There are two ways to do this stage. The fast way gets you a working coach in under a minute. The deeper way has you build your own across three rounds, and that building is itself the lesson, because each round changes how you relate to the tool, which is the postphenomenology you saw in the video.
 
@@ -85,22 +85,22 @@ Round two, let it talk back, which is the alterity relation, a second party rath
 EXACT PROMPT I used:
 > Revise my coaching.md so that when I show it my own reading of an image or a set, it does not agree and does not correct me. It pushes on it, asks where my reading might be my own projection rather than something I can point to in the picture, names one place where someone standing somewhere else would read it differently, and asks me why I stand where I do. It is a second party, not a mirror.
 
-IN YOUR OWN WORDS: revise the coach so it argues with your reading from a different position rather than reflecting it back.
+IN YOUR OWN WORDS: revise the coach so it argues with your take from a different position rather than reflecting it back.
 
-Round three, give it the readings and the long view, which is the background relation, where it can name how the model leans.
+Round three, give it the postphenomenology readings in your literature folder and the end-of-session look-back across your whole prompt record, which is the background relation, where it can name how the model leans.
 
 EXACT PROMPT I used:
-> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without pushing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt trail, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
+> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without pushing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt record, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
 
-IN YOUR OWN WORDS: revise the coach so it draws on your readings and, at the end, reads your whole trail back and names the four relations as a reading, not a verdict.
+IN YOUR OWN WORDS: revise the coach so it draws on your readings and, at the end, reads your whole prompt record back and names the four relations as a reading, not a verdict.
 
-Either path, the end-of-session read-back only has something to work with once you have built up a trail, so you run that part last, in Stage 9, not now.
+Either path, the end-of-session read-back only has something to work with once you have built up a prompt record, so you run that part last, in Stage 9, not now.
 
 ---
 
 ## Stage 2, Open your archive and read it yourself first
 
-**What it does and why.** Before any AI sees your screenshots, you read the set yourself and write down what you see. Doing this first fixes your own meaning, so you have something to measure the gap against once the tool speaks.
+**What it does and why.** Before any AI reads your screenshots, you read the set yourself and write down what you see. Doing this first puts in writing what you meant by your screenshots, so you have it to set against the model's reading and find the gap.
 
 COMMANDS:
 ```
@@ -120,7 +120,7 @@ Write your answers under four headings, in your own words: what I see across the
 
 *(Shown in the lecture video: this is Stage 3, "Reading the Archive.")*
 
-**What it does and why.** Here a large language model with vision reads across your whole set for the first time, and you call your coaching agent on the prompt first so your own assumption is in the open before the model speaks. A quick note on terms, since precision matters here. By "reading" I mean the model's interpretation of your images rendered as text, the kinds of things it says you keep capturing. And this model does not see your pictures the way you do, it works over a numerical encoding of the pixels and predicts likely text, so it has no access to why you saved anything, only to patterns. That limit is the point, because the gap between your reading and the model's first reading appears right here, and it appears precisely because the model is working from patterns while you were working from intention.
+**What it does and why.** Here a large language model with vision reads across your whole set for the first time, and you call your coaching agent on the prompt first so your own assumption is in the open before the model speaks. A quick note on terms, since precision matters here. By "reading" I mean the model's interpretation of your images rendered as text, the kinds of things it says you keep capturing. And this model does not see your pictures the way you do, it works over a numerical encoding of the pixels and predicts likely text, so it has no access to why you saved anything, only to patterns. That limit is the point, because the gap between your own take and the model's first reading appears right here, and it appears precisely because the model is working from patterns while you were working from intention.
 
 EXACT PROMPT I said:
 > Read across all twenty-six screenshots in my vernacular-archive folder as a set, not one by one, and tell me what kinds I keep capturing and what someone would need to notice to read each kind. But before you run that, use my coaching agent on the prompt I just wrote and have it ask me what I'm assuming first.
@@ -138,9 +138,9 @@ The full read takes a few minutes. When done:
 
 ## Stage 4, Test the reading for where it is anchored and where it only sounds right
 
-**What it does and why.** You don't take the model's reading as the truth of your archive, you test it, and here is what you are testing for. Some of what it says is anchored, meaning you can point to something really on the screen that supports it. Some of it only sounds right, meaning it reads as confident and tidy but you can't actually anchor it to anything in the images. Telling those two apart, anchored from merely plausible, is the core skill of the whole unit, and it is what reading the gap concretely means. One thing to watch for, when the model is impressively right about one thing, it tempts you to trust the rest, so being right once is not the same as being anchored everywhere.
+**What it does and why.** You don't take the model's reading as the truth of your archive, you test it, and here is what you are testing for. Some of what it says is anchored, meaning you can point to something really on the screen that supports it. Some of it only sounds right, meaning it reads as confident and tidy but you can't actually anchor it to anything in the images. Telling those two apart, anchored from merely plausible, is the core skill of the whole unit, and it is what reading the gap concretely means. One thing to watch for, when the model is impressively right about one thing, it tempts you to trust the rest, so being right once is not the same as anchored.
 
-With the reading open, use Command-F to jump to specific parts of it. You are looking for two kinds of spot. First, a place where the model is impressively right about something, a detail it got correct that you never told it, because that is the trap: when a tool is clearly right about one thing, you start trusting everything else it said, even the parts it has no real basis for. Second, a place where the model admits it could not explain something, which is often the most trustworthy moment in the whole reading, because it is the one point where the tool stopped performing confidence. Once you have found both, write back to the model and ask it to separate the two for you.
+With the reading open, use Command-F to jump to specific parts of it. You are looking for two kinds of spot. First, a place where the model is impressively right about something, a detail it got correct that you never told it, because that is the trap. When a tool is clearly right about one thing, it can pull you toward trusting the rest, even the parts it has no real basis for. Second, a place where the model admits it could not explain something, which is often the most trustworthy moment in the whole reading, because it is the one point where the tool stopped performing confidence. Once you have found both, write back to the model and ask it to separate the two for you.
 
 EXACT PROMPT I said:
 > You sound very sure about these six types. But my own reading admits I can't always recover why I took a given screenshot. So tell me honestly, which of your types are anchored in what's really on the screen, and which are you guessing at to give me a clean answer?
@@ -151,7 +151,7 @@ IN YOUR OWN WORDS: tell the AI it sounds sure, remind it your own reading admits
 
 ## Stage 5, A second reading that disagrees
 
-**What it does and why.** You run a second agent over the same set, but from a different stance, and that stance comes from the readings. The first agent sorted by what's on the screen, surface and composition. The second sorts by intention, why each image was saved, which is the question postphenomenology and Frosh push you toward, reading an image for why it was saved and what it lets you reflect on, not just for how it looks. When two competent readings of the same archive disagree, it proves the gap isn't a malfunction, it's a position. There's no single right reading, only readings from somewhere, which is the core claim of the whole unit.
+**What it does and why.** You run a second agent over the same set, but from a different stance, and that stance comes from the postphenomenology readings. The first agent sorted by what's on the screen, surface and composition. The second sorts by intention, why each image was saved, which is the question postphenomenology and Frosh push you toward, reading an image for why it was saved and what it lets you reflect on, not just for how it looks. When two competent readings of the same archive disagree, it proves the gap isn't a malfunction, it's a position. There's no single right reading, only readings from somewhere, which is the core idea of the whole unit.
 
 EXACT PROMPT I said:
 > Use my peer-screenshot agent on the same twenty-six in vernacular-archive. The first agent sorted by the formal relationship between interface and framed content. Sort instead by the capturer's intention in keeping each one, the act of saving rather than the look of the image. Tell me where this reading and the first one part ways, and why the difference comes from the stance, not the pictures.
@@ -171,7 +171,7 @@ When done:
 
 **What it does and why.** You turn the reading into an image, because words let a model hedge and a picture has to commit. The moment it commits, you see where it diverges from your real archive. This is the gap made visible.
 
-You have the AI take its own reading of your archive and write the image prompt from it, so the prompt carries its synthesis forward rather than yours. The reading it produced in Stage 3 is saved in `screenshot-reading.md`, so you point it back at that file and ask it to compress the whole reading into one prompt.
+You have the AI take its own reading of your archive and write the image prompt from it, so the image prompt is built from the AI's reading, not from your take. The reading it produced in Stage 3 is saved in `screenshot-reading.md`, so you point it back at that file and ask it to compress the whole reading into one prompt.
 
 EXACT PROMPT I used:
 > Read my screenshot-reading.md and write a single image-generation prompt that captures the scene your reading describes across all twenty-six screenshots. Keep it to a few sentences, and tell the generator no text, no words, no letters.
@@ -195,17 +195,17 @@ Either path, when you have the image:
 !open context-image-generated.png
 ```
 
-Open the image and set it beside your real archive in your mind, then look for three specific kinds of difference. What did it add that was never in any of your screenshots, an object, a building, a person. What did it remove or smooth away that was central to your set, in my case it erased every screen and interface, which was the whole subject of my archive. And what did it change the character of, turning something specific and yours into something generic. Write those differences down. You are not deciding whether the image is good or bad, you are locating exactly where its version parts from yours, because each of those points is the gap in visible form.
+Open the image and set it beside your real archive in your mind, then look for three specific kinds of difference. What did it add that was never in any of your screenshots, an object, a building, a person. What did it remove or smooth away that was central to your archive, in my case it erased every screen and interface, which was the whole subject of my archive. And what did it change the character of, turning something specific and yours into something generic. Write those differences down. You are not deciding whether the image is good or bad, you are locating exactly where its version parts from yours, because each of those points is the gap in visible form.
 
 **SAVE for hand-in:** your generated image.
 
 ---
 
-## Stage 7, Taking the wheel on the 2D/3D site
+## Stage 7, Give the 2D/3D site your own instruction
 
-**What it does and why.** You move one screenshot into a site that rebuilds it as a three-dimensional space you can move through. That rebuilt space is the tool's reading of your memory, not your memory, because it had to invent everything your flat screenshot never showed, the depth, the far walls, whatever sat outside the frame. Then you give it an instruction of your own and see what it does with it. Sometimes it changes the scene the way you asked. More often it makes a small gesture toward your instruction and then rebuilds something close to its original version anyway, so the thing you asked for either does not appear or appears and then gets overridden. That second outcome is the point of the stage, because it shows the gap in a new form. In the earlier stages the tool drifted away from what you meant on its own. Here it has your explicit instruction in hand and still returns to its own reading, so you are watching the tool hold its interpretation against yours.
+**What it does and why.** You move one screenshot into a site that rebuilds it as a three-dimensional space you can move through. That rebuilt space is the tool's reading of your memory, not your memory, because it had to construct everything your flat screenshot never showed, the depth, the far walls, whatever sat outside the frame. Then you give it an instruction of your own and see what it does with it. Sometimes it changes the scene the way you asked. More often it makes a small gesture toward your instruction and then rebuilds something close to its original version anyway, so the thing you asked for either does not appear or appears and then gets overridden. That second outcome is the point of the stage, because it shows the gap in a new form. In the earlier stages the tool parted from what you meant on its own. Here it has your explicit instruction in hand and still returns to its own reading, so you are watching the tool hold its interpretation against yours.
 
-Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you will see your flat image on the left while the tool builds a three-dimensional version of it on the right. Move through that built space for a moment and notice everything in it that was never in your original picture, the depth it gave flat objects, the parts of the room it invented past the edges of your frame, surfaces it filled in that you never photographed. That invented material is the tool's reading. Then take a turn at directing it: mask one part of the scene and type a specific instruction for what you want there instead, for example asking it to put a window where it placed a wall. Generate the change, then compare the result against what you asked for. Look at the masked area in particular and decide which of these happened: it made the change you asked for, it ignored your instruction and kept its own version, or it changed the area but toward something other than what you asked. That comparison, your instruction against what it actually produced, is the gap you are recording here.
+Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you will see your flat image on the left while the tool builds a three-dimensional version of it on the right. Move through that built space for a moment and notice everything in it that was never in your original picture, the depth it gave flat objects, the parts of the room it built past the edges of your frame, surfaces it filled in that you never photographed. That constructed material is the tool's reading. Then take a turn at directing it: mask one part of the scene and type a specific instruction for what you want there instead, for example asking it to put a window where it placed a wall. Generate the change, then compare the result against what you asked for. Look at the masked area in particular and decide which of these happened: it made the change you asked for, it ignored your instruction and kept its own version, or it changed the area but toward something other than what you asked. That comparison, your instruction against what it actually produced, is the gap you are recording here.
 
 The site doesn't save anything, so you capture it yourself with a screenshot, one before your edit and one after.
 
@@ -215,9 +215,9 @@ Then log it by hand: ask your tool to add a note to prompts.md describing what y
 
 ---
 
-## Stage 8, Carry your meaning forward in a master prompt
+## Stage 8, Build a master prompt from your take on the screenshots and the two agents' readings of them
 
-**What it does and why.** Every tool lost something of what you meant. So you gather three files into one: your own take from `my-interpretation.md`, the first agent's reading from `screenshot-reading.md`, and the second agent's reading from `peer-reading.md`. You put your take at the top and keep the two agent readings as separate sections, because they disagree and that disagreement is what you want to carry forward. This one file is what you hand to a future AI session so it starts with your point of view and both readings, instead of starting cold.
+**What it does and why.** Each tool gave a reading that left out or changed part of what you meant by your screenshots. So you gather three files into one: your own take from `my-interpretation.md`, the first agent's reading from `screenshot-reading.md`, and the second agent's reading from `peer-reading.md`. You put your take at the top and keep the two agent readings as separate sections, because they disagree and that disagreement is what you want to carry forward. This one file is what you hand to a future AI session so it starts with your point of view and both agent readings, the first by what is on the screen and the second by why you saved each screenshot, instead of starting with nothing.
 
 ```
 !open final-prompt.md
@@ -232,33 +232,33 @@ IN YOUR OWN WORDS: ask the tool to make one file called `final-prompt.md`, put y
 
 ---
 
-## Stage 9, Close the loop (bridge to the assessment)
+## Stage 9, Read your prompt record back (bridge to the assessment)
 
 *(Shown in the lecture video: this is Stage 9, "Reading the Trail.")*
 
-**What it does and why.** Everything you did left a trail, and that trail is the proof you did the real thinking rather than guessed well. So this is where the doing becomes evidence, and the evidence becomes the basis for honest reflection in the assessment.
+**What it does and why.** Everything you did left a record, and that record is the proof you did the real thinking rather than guessed well. So this is where the work you did becomes evidence, and the evidence becomes the basis for honest reflection in the assessment.
 
 Your `prompts.md` saved every prompt you sent. Look back over it:
 
-A full example trail is in `prompts.md` in this repo, the real record from when I built and ran this lesson. Open it to see the shape a finished trail takes, the false starts and the doublings-back included, then read your own. It is an example, not a template, so your trail will look different because your prompts and your archive are your own.
+A full example record is in `prompts.md` in this repo, the real record from when I built and ran this lesson. Open it to see what a finished record looks like, the false starts and the doublings-back included, then read your own. It is an example, not a template, so your record will look different because your prompts and your archive are your own.
 ```
 !cat prompts.md
 ```
 
-Then, optionally, turn the coach back on the whole session. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort what you noticed directly from the trail above and skip this.
+Then, optionally, run your coaching agent again, this time over your whole prompts.md, so it reads back the prompts you sent and names the kinds you repeated and the angles you never prompted from. This is helpful but not required, if you're short on time or used the ready-made coach, you can sort what you noticed directly from the prompt record above and skip this.
 
 EXACT PROMPT I used:
 > Use my coaching agent to read back over my whole prompts.md. Tell me which kinds of prompts I made over and over, and which angles I never prompted from at all. Then name which of the four relations, hermeneutic, alterity, background, embodiment, showed up in how I worked across the session, and point to a real prompt for each one.
 
-IN YOUR OWN WORDS: ask your coaching agent to read your whole trail back, name the kinds of prompts you repeated and the angles you never prompted from, and name which of the four relations showed up in how you worked, with a real prompt as the example for each.
+IN YOUR OWN WORDS: ask your coaching agent to read your whole prompt record back, name the kinds of prompts you repeated and the angles you never prompted from, and name which of the four relations showed up in how you worked, with a real prompt as the example for each.
 
 If you ran it:
 ```
 !open coaching-readback.md
 ```
 
-This is where the activity ends and the assessment begins. Everything you've made, your trail and your saved files, is now your evidence. **What you submit and how it is graded is in the separate ASSESSMENT file.** Take the coach's reading, if you ran it, as raw material, the sorting and judgment are yours.
+This is where the activity ends and the assessment begins. Everything you've made, your prompt record and your saved files, is now your evidence. **What you submit and how it is graded is in the separate ASSESSMENT file.** Take the coach's reading, if you ran it, as raw material for your reflection, the sorting and judgment are yours.
 
 ---
 
-This is what the postphenomenology readings point to: noticing how a tool shapes what you see at the very moment you are seeing through it, rather than letting it shape you without your noticing. Concretely, that means you can now name, for any AI reading of your own material, which parts you can anchor to something real, which parts you are taking on faith, and which parts neither you nor the tool can account for. Holding those three apart, while the tool is actively giving you a confident single answer, is the skill this unit builds.
+The postphenomenology readings point to noticing how a tool shapes what you see at the very moment you are seeing through it. Concretely, that means you can now name, for any AI reading of your own screenshots, which parts you can anchor to something real, which parts you are taking on faith, and which parts neither you nor the tool can account for. Holding those three apart, while the tool is actively giving you a confident single answer, is the skill this unit builds.
