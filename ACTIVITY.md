@@ -54,7 +54,7 @@ You do not need a paid API key for this. Stage 6 generates an image, and while I
 
 ## Stage 1, Build the coaching agent
 
-**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters for the aim because the gap starts with your own assumptions, the things you bring to a picture without noticing, so catching them early is what keeps the rest of the reading honest.
+**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters because the gap starts with your own assumptions, the things you bring to a picture without noticing, so catching them early is what keeps the rest honest.
 
 There are two ways to do this stage. The fast way gets you a working coach in under a minute. The deeper way has you build your own across three rounds, and that building is itself the lesson, because each round changes how you relate to the tool, which is the postphenomenology you saw in the video.
 
@@ -98,9 +98,9 @@ Either path, the end-of-session read-back only has something to work with once y
 
 ---
 
-## Stage 2, Open your archive and write your own reading
+## Stage 2, Open your archive and read it yourself first
 
-**What it does and why.** Before any AI sees your screenshots, you write your own reading. This is the key move for the aim, because it fixes your meaning before the tool speaks, giving you something to measure the gap against.
+**What it does and why.** Before any AI sees your screenshots, you read the set yourself and write down what you see. Doing this first fixes your own meaning, so you have something to measure the gap against once the tool speaks.
 
 COMMANDS:
 ```
@@ -134,16 +134,6 @@ The full read takes a few minutes. When done:
 
 **SAVE for hand-in:** `screenshot-reading.md`.
 
-**An example, so you see the shape.** Here is a trimmed version of what my own read produced, yours will differ because your archive and your prompt are your own. Notice two things in it. First, how the model chose its sorting before it found any types. Second, where it admits what it cannot get from the pixels alone.
-
-> **Sorting axis.** Three passes. Content (food, travel, art) collapsed, too many shots belonged to several bins at once. App or surface (browser, maps, notification) made clean bins but lost the question of why the shot was taken. The axis that held: what the person was doing with the screen at the moment of capture, looking through it, grabbing from it, catching a message on it, recording its own state, or disguising a screenshot as a photo. That sort yielded five kinds.
->
-> **The five kinds (named only here).** Window-Through, Clipboard Capture, Relay, Witness, Photograph-That-Wasn't. Each comes with what a reader would need to notice to read that kind well.
->
-> **What the typology cannot do without me.** It cannot tell an aspirational save from an operational one inside the same kind. It cannot know who the people named in the message screenshots are, that is not in the pixels. And it guesses, openly, that the shots I do not remember taking are the ones it is least sure about. That last admission, the model naming what it cannot recover instead of covering it with a confident answer, is the gap this whole unit is about.
-
-The point of showing this is not the five kinds. It is the two moves around them, the model choosing a sorting method before any type exists, and the model admitting the limit of what pixels can carry. Your own read will name different kinds, but watch for those same two moves in it.
-
 ---
 
 ## Stage 4, Test the reading for where it is anchored and where it only sounds right
@@ -161,7 +151,7 @@ IN YOUR OWN WORDS: tell the AI it sounds sure, remind it your own reading admits
 
 ## Stage 5, A second reading that disagrees
 
-**What it does and why.** You run a second agent over the same set, but from a different stance, and that stance comes from the readings. The first agent sorted by what's on the screen, surface and composition. The second sorts by intention, why each image was saved, which is the question the postphenomenology and Frosh push you toward, reading media for the intention and reflection they carry. When two competent readings of the same archive disagree, it proves the gap isn't a malfunction, it's a position. There's no single right reading, only readings from somewhere, which is the core claim of the whole unit.
+**What it does and why.** You run a second agent over the same set, but from a different stance, and that stance comes from the readings. The first agent sorted by what's on the screen, surface and composition. The second sorts by intention, why each image was saved, which is the question postphenomenology and Frosh push you toward, reading an image for why it was saved and what it lets you reflect on, not just for how it looks. When two competent readings of the same archive disagree, it proves the gap isn't a malfunction, it's a position. There's no single right reading, only readings from somewhere, which is the core claim of the whole unit.
 
 EXACT PROMPT I said:
 > Use my peer-screenshot agent on the same twenty-six in vernacular-archive. The first agent sorted by the formal relationship between interface and framed content. Sort instead by the capturer's intention in keeping each one, the act of saving rather than the look of the image. Tell me where this reading and the first one part ways, and why the difference comes from the stance, not the pictures.
