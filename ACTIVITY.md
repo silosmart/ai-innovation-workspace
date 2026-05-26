@@ -134,6 +134,16 @@ The full read takes a few minutes. When done:
 
 **SAVE for hand-in:** `screenshot-reading.md`.
 
+**An example, so you see the shape.** Here is a trimmed version of what my own read produced, yours will differ because your archive and your prompt are your own. Notice two things in it. First, how the model chose its sorting before it found any types. Second, where it admits what it cannot get from the pixels alone.
+
+> **Sorting axis.** Three passes. Content (food, travel, art) collapsed, too many shots belonged to several bins at once. App or surface (browser, maps, notification) made clean bins but lost the question of why the shot was taken. The axis that held: what the person was doing with the screen at the moment of capture, looking through it, grabbing from it, catching a message on it, recording its own state, or disguising a screenshot as a photo. That sort yielded five kinds.
+>
+> **The five kinds (named only here).** Window-Through, Clipboard Capture, Relay, Witness, Photograph-That-Wasn't. Each comes with what a reader would need to notice to read that kind well.
+>
+> **What the typology cannot do without me.** It cannot tell an aspirational save from an operational one inside the same kind. It cannot know who the people named in the message screenshots are, that is not in the pixels. And it guesses, openly, that the shots I do not remember taking are the ones it is least sure about. That last admission, the model naming what it cannot recover instead of covering it with a confident answer, is the gap this whole unit is about.
+
+The point of showing this is not the five kinds. It is the two moves around them, the model choosing a sorting method before any type exists, and the model admitting the limit of what pixels can carry. Your own read will name different kinds, but watch for those same two moves in it.
+
 ---
 
 ## Stage 4, Test the reading for where it is anchored and where it only sounds right
