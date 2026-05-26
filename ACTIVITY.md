@@ -6,6 +6,8 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 **The aim:** find and value the gap between what you meant by your own images and what the tool makes of them. Reading that gap teaches you about the tool, about yourself, and about how to keep your own meaning first as these tools get better at predicting us.
 
+**A note on the video and this activity.** The lecture video demonstrates two of the nine stages below, Stage 3 (Reading the Archive, where the model reads your screenshots) and Stage 9 (Reading the Trail, where the coach reads your prompt record back to you). Those two stages are marked below. The video shows them so you can see the gap appear and the look-back that closes it. This activity is where you run all nine stages yourself, on your own screenshots.
+
 ---
 
 ## How this guide works: two kinds of things you do
@@ -115,6 +117,8 @@ Write your answers under four headings, in your own words: what I see across the
 ---
 
 ## Stage 3, A language model reads your archive and offers its first reading
+
+*(Shown in the lecture video: this is Stage 3, "Reading the Archive.")*
 
 **What it does and why.** Here a large language model with vision reads across your whole set for the first time, and you call your coaching agent on the prompt first so your own assumption is in the open before the model speaks. A quick note on terms, since precision matters here. By "reading" I mean the model's interpretation of your images rendered as text, the kinds of things it says you keep capturing. And this model does not see your pictures the way you do, it works over a numerical encoding of the pixels and predicts likely text, so it has no access to why you saved anything, only to patterns. That limit is the point, because the gap between your reading and the model's first reading appears right here, and it appears precisely because the model is working from patterns while you were working from intention.
 
@@ -227,9 +231,13 @@ IN YOUR OWN WORDS: ask your tool to fill your master-prompt file from your three
 
 ## Stage 9, Close the loop (bridge to the assessment)
 
+*(Shown in the lecture video: this is Stage 9, "Reading the Trail.")*
+
 **What it does and why.** Everything you did left a trail, and that trail is the proof you did the real thinking rather than guessed well. So this is where the doing becomes evidence, and the evidence becomes the basis for honest reflection in the assessment.
 
 Your `prompts.md` saved every prompt you sent. Look back over it:
+
+A full example trail is in `prompts.md` in this repo, the real record from when I built and ran this lesson. Open it to see the shape a finished trail takes, the false starts and the doublings-back included, then read your own. It is an example, not a template, so your trail will look different because your prompts and your archive are your own.
 ```
 !cat prompts.md
 ```
