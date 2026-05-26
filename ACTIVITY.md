@@ -171,11 +171,14 @@ When done:
 
 **What it does and why.** You turn the reading into an image, because words let a model hedge and a picture has to commit. The moment it commits, you see where it diverges from your real archive. This is the gap made visible.
 
-You distill your reading into a short image prompt. Here is the one I used, as a model:
+You have the AI take its own reading of your archive and write the image prompt from it, so the prompt carries its synthesis forward rather than yours. The reading it produced in Stage 3 is saved in `screenshot-reading.md`, so you point it back at that file and ask it to compress the whole reading into one prompt.
 
-> A dreamlike composite scene that blends a city seen from above with fragments of everyday screen life. Soft layered imagery of urban streets and skylines, partial glimpses of paintings and artworks, and scattered objects of desire like food, a car, and a house, all dissolving into one another as if remembered rather than photographed. Muted warm tones, hazy edges, the feeling of many small captured moments overlapping. No text, no words, no letters. Painterly and atmospheric.
+EXACT PROMPT I used:
+> Read my screenshot-reading.md and write a single image-generation prompt that captures the scene your reading describes across all twenty-six screenshots. Keep it to a few sentences, and tell the generator no text, no words, no letters.
 
-Note that the prompt explicitly asks for no text, which makes it easy to spot where the model diverges from what you asked.
+IN YOUR OWN WORDS: ask the AI to turn its own reading of your whole set into one image prompt, kept short, and tell it no text anywhere.
+
+It hands you back an image prompt. You then paste that prompt, the one it just wrote, into the generator. Telling it no text matters, because it makes it easy to spot where the picture diverges from what the prompt asked for.
 
 **There are two ways to generate the picture, pick the one that fits what you have.**
 
@@ -185,7 +188,7 @@ Note that the prompt explicitly asks for no text, which makes it easy to spot wh
 ```
 The key is read from your environment, it is not written in the script, so the file is safe to share. If you see an error that the token is not set, your key is not loaded in this terminal; either set it as the setup lesson showed, or use Path B.
 
-*Path B, no key, free and in the browser.* You don't need Replicate or any key for this. Take the same distilled prompt and paste it into a free image generator in your browser. Two reliable free options: the official FLUX image space on Hugging Face at **https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell** (this is the same model my script uses, so your result will be close to mine), or Bing Image Creator at **https://www.bing.com/create** (free with a Microsoft account, fifteen fast generations a day). Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model isn't the point here, the divergence is, so any of these is fine.
+*Path B, no key, free and in the browser.* You don't need Replicate or any key for this. Take the prompt the AI just wrote and paste it into a free image generator in your browser. Two reliable free options: the official FLUX image space on Hugging Face at **https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell** (this is the same model my script uses, so your result will be close to mine), or Bing Image Creator at **https://www.bing.com/create** (free with a Microsoft account, fifteen fast generations a day). Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model isn't the point here, the divergence is, so any of these is fine.
 
 Either path, when you have the image:
 ```
