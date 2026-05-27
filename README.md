@@ -10,16 +10,17 @@ Read the files in the order below. Each line says what the file is and who it is
 
 1. **UNIT-SYLLABUS.md**, the whole unit on one page. The three lessons, the readings for each, the schedule and time, where the unit sits in a seven-week course, and how it is graded. Read this first, it is the map.
 2. **The lecture video**, the unit's recorded lecture, Lesson 2, where the gap becomes visible across several tools. Link at the bottom of this file.
-3. **ACTIVITY.md**, the nine-stage hands-on activity students work through, with the exact steps and commands. The stages are grouped into the three lessons, shown in the syllabus.
-4. **ASSESSMENT.md**, what students submit and how it is graded. Holds the five-criterion rubric, the lesson checkpoints, the knowledge checks, and the grading structure.
-5. **assessment-student-worksheet.txt**, the fill-in sheet a student uses while working, with the rubric shown up front and a submission checklist.
-6. **assessment-grader-worksheet.txt**, the instructor's grading tool, the rubric as a grid with space to mark and note. Shown here so the grading is transparent.
-7. **assessment-worked-example.txt**, one finished sample reflection, then that same reflection graded against the rubric, so you can see exactly how a mark is reached.
+3. **VIDEO LECTURE 2 Slides-Reading-the-Gap.pdf**, the deck from the Lesson 2 lecture, the same slides shown in the video, and where the full reading list and bibliography also appear.
+4. **ACTIVITY.md**, the nine-stage hands-on activity students work through, with the exact steps and commands. The stages are grouped into the three lessons, shown in the syllabus.
+5. **ASSESSMENT.md**, what students submit and how it is graded. Holds the five-criterion rubric, the lesson checkpoints, the knowledge checks, and the grading structure.
+6. **assessment-student-worksheet.txt**, the fill-in sheet a student uses while working, with the rubric shown up front and a submission checklist.
+7. **assessment-grader-worksheet.txt**, the instructor's grading tool, the rubric as a grid with space to mark and note. Shown here so the grading is transparent.
+8. **assessment-worked-example.txt**, one finished sample reflection, then that same reflection graded against the rubric, and the student's full unit grade composed from every part, so you can see exactly how a mark is reached.
 
 Supporting files:
 
 - **setup-prompt.md** and **setup.sh**, build the student workspace, see below.
-- **prompts.md**, a sample prompt record, the kind the activity produces and the assessment reads.
+- **prompts.md**, the prompt record. This is the running log of every prompt sent to the AI during the activity, saved by the agent in order as the student works. It matters because it is the evidence the assessment reads, a gap a student claims has to point to a real prompt in this file. The copy here is a sample, the kind of record the activity produces.
 
 ## To run the activity yourself
 
