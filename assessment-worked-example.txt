@@ -1,0 +1,117 @@
+READING THE GAP, WORKED EXAMPLE
+A finished sample reflection, written as prose the way a student hands it in, then that same
+reflection graded against the five criteria. For the instructor, as a model to grade by, or to
+read to a room as "here is how I grade one."
+
+The reflection is the summative piece for the whole unit. It comes after all three lessons and
+reads across them, the meaning set in Lesson 1, the gaps seen in Lesson 2, the turn in Lesson 3.
+It runs about 750 words here, inside the 600 to 1000 range.
+
+================================================================
+PART A, THE SAMPLE REFLECTION  (the finished prose a student hands in)
+================================================================
+
+When I read back through my prompt record at the end of the session, what stood out first was
+how sure the language model had sounded. In Stage 3 it had sorted my screenshots into six clean
+types, and that I can point to, the six names are listed in screenshot-reading.md. While I read
+that list I was in the hermeneutic relation, taking its output as a text I had to interpret, the
+way I would read a caption someone else had written under one of my photos. The trouble only
+appeared when I pushed back. In Stage 4 I asked it to show me, on the actual screens, the evidence
+for each type, and for the one it called aesthetic inspiration it named no shot at all. That
+exchange is in my prompt record, so I can point to it. It was also the moment my relation to the
+tool shifted, because I stopped reading its list and started arguing with it, which is the
+alterity relation, the tool as another party that has to account for itself. The shift happened
+because it had reached for a tidy answer the screen could not support.
+
+The image generator gave me a gap that was easier to see and just as easy to point to. My prompt
+ended with the words no text, and the picture it returned has text running along the road, low
+and to the middle of context-image-generated.png. I was back in the hermeneutic relation here,
+reading the picture against the words I had given it. What held my attention was not that the tool
+had erred, but that it had returned a reading of my instruction that parted from what I meant, and
+I could put my finger on exactly where it parted.
+
+The 2D/3D site produced a stranger one. I asked the skylight area for more daylight and it gave me
+more nurses, which my two before-and-after screenshots show plainly. For a moment I caught myself
+thinking it had refused me on purpose, and that pulled me toward the alterity relation again,
+treating it as something with intentions. I have to be honest that the on-purpose part is not
+something I can point to. I can show that it gave nurses, not that it meant anything by it, so I am
+marking that thought as an assumption rather than something I proved. The shift into reading it as
+willful was mine, not the tool's.
+
+One thing I genuinely cannot account for. The model flagged a small purple icon in two unrelated
+screenshots and tied them together, and it could not say why, and neither can I. It is named in
+screenshot-reading.md, so the thing itself is real, but the reason is not available to me, and I
+would rather leave it open than invent one.
+
+Across the whole hour I was mostly in the hermeneutic relation, reading outputs, with two moves
+into alterity, once when I pushed back in Stage 4 and once when the site felt like a refusal, and
+I can feel the background relation underneath the whole time, the model leaning toward neat
+categories whether I asked for that or not. The relation that barely showed up was embodiment. I
+never once stopped noticing the tool. I was checking it the entire session, which is the opposite
+of looking through it without noticing it is there.
+
+That last point is the one I want to take forward, because embodiment is the relation that hides.
+If I were to use this captioning model every week for my church's photo archive, I can see the
+moment it would slip out of sight. The tipping point would be the week its captions are good
+enough that opening each original to compare starts to feel like wasted effort. What I would lose
+at that point is the thing I would stop looking for, the older people standing at the back of a
+group photo, the ones a quick caption tends to drop. I would be trusting the caption instead of
+looking at the photograph.
+
+Doing this has already changed one thing in how I read these outputs. I now open the original
+before I accept a caption, where a week ago I would have taken the caption and moved on. Whether
+that one habit holds once the work turns repetitive is exactly the question the embodiment I
+described is about, and that is the part I will be watching in myself.
+
+================================================================
+PART B, THE SAME REFLECTION, GRADED
+================================================================
+
+Going to the spots first.
+  The six types, screenshot-reading.md does list them. Holds.
+  The Stage 4 exchange, the prompt and reply are in the prompt record, and no shot is named for
+    aesthetic inspiration. Holds.
+  The no-text image, the prompt ends in no text and the road text is in the image. Holds.
+  The nurses result, the before-and-after screenshots show it. Holds.
+  The purple icon, the two shots and the icon are named in screenshot-reading.md. Holds.
+
+1. POINTING HOLDS UP ....................... Strong
+   Every place marked as something they can point to names a real spot, and each spot, on
+   checking, shows what was said. Evidence: the six types, the Stage 4 exchange, the road text,
+   the nurses screenshots, the purple icon, all held where they pointed.
+
+2. GUESSES KEPT SEPARATE ................... Strong
+   The one belief that cannot be shown, that the site refused on purpose, is marked as an
+   assumption, not pointed to. The line between shown and believed is drawn correctly. Evidence:
+   the nurses paragraph.
+
+3. THE UNEXPLAINED LEFT OPEN ............... Strong
+   The purple icon is left as something that cannot be explained, names a real thing in the work,
+   and is held open with no invented reason. Evidence: the purple-icon paragraph.
+
+4. READING THE GAPS THROUGH THE RELATIONS ... Strong
+   Names the relation at each gap, and catches two real shifts into alterity, at Stage 4 when the
+   reading turned into an argument, and at the site when the result felt like a refusal. Names
+   embodiment as the relation that barely showed up, correctly, since the session was an hour of
+   checking, not looking through the tool. Evidence: the relation named at each gap and the
+   barely-showed-up paragraph.
+
+5. THE REFLEXIVE TURN ...................... Adequate
+   The forward half is strong. The embodiment is worked out with a task, captioning the church
+   archive, a tipping point, when comparing to the originals feels wasted, and a loss, the older
+   people at the back dropping out. The backward half is thinner. It names one way the reading
+   changed, opening the original before accepting a caption, but it does not name a second
+   concrete thing, the specific kind of thing in the archive that will now be noticed and would
+   have been walked past before. Missing one of the two concrete parts holds this at Adequate.
+   Evidence: the final two paragraphs.
+
+OVERALL ..................................... Strong
+   Four Strong, one Adequate, none Developing. The sorting is honest, every pointed gap holds,
+   and the two relation shifts are exactly the events worth catching. The one place to push is
+   the backward half of the reflexive turn.
+
+Comment to the student:
+   Your pointing is clean and your two relation shifts are the events worth catching. To move the
+   reflexive turn up, add the second concrete thing, name the specific kind of thing in your own
+   archive you will now notice that you would have walked past before, alongside the habit you
+   already named.

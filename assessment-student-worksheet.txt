@@ -1,0 +1,153 @@
+READING THE GAP, STUDENT ASSESSMENT WORKSHEET
+Use this while you work and before you hand in. It is yours to fill in.
+
+It does two jobs, it helps you gather what you noticed as you go, and it lets you confirm you
+have every file before you submit.
+
+
+THE RUBRIC, HOW YOUR REFLECTION IS JUDGED  (read this before you start)
+This is the same rubric your instructor grades with, shown so you know the standard before you
+write. There is no correct reading to reach. What is judged is how honestly and accurately you
+sorted what you noticed, how you read it through the relations, and how concretely you turned the
+lens on yourself.
+
++---------------------------------------------------------------------------+
+| 1. POINTING HOLDS UP                                                      |
++----------------+----------------------------------------------------------+
+| Strong         | Every "I can point to it" gap names a specific prompt in |
+|                | prompts.md or a specific spot in a file, and that spot,  |
+|                | when checked, shows what you said.                       |
++----------------+----------------------------------------------------------+
+| Adequate       | Most do. One or two point to a spot that does not        |
+|                | clearly show the thing.                                  |
++----------------+----------------------------------------------------------+
+| Developing     | Several name no spot, or point to a spot that does not   |
+|                | show what you said.                                      |
++----------------+----------------------------------------------------------+
+
++---------------------------------------------------------------------------+
+| 2. GUESSES KEPT SEPARATE                                                  |
++----------------+----------------------------------------------------------+
+| Strong         | Everything you cannot tie to a spot is marked "I'm       |
+|                | assuming." The line between shown and believed is drawn  |
+|                | correctly throughout.                                    |
++----------------+----------------------------------------------------------+
+| Adequate       | One or two guesses are marked "I can point to it," but   |
+|                | most of the sorting is right.                            |
++----------------+----------------------------------------------------------+
+| Developing     | Guesses are repeatedly marked "I can point to it," so    |
+|                | beliefs stand in for shown things.                       |
++----------------+----------------------------------------------------------+
+
++---------------------------------------------------------------------------+
+| 3. THE UNEXPLAINED LEFT OPEN                                              |
++----------------+----------------------------------------------------------+
+| Strong         | At least one gap is marked "I can't explain it," names a |
+|                | real thing, and is left open rather than closed with a   |
+|                | made-up reason.                                          |
++----------------+----------------------------------------------------------+
+| Adequate       | An "I can't explain it" is present but thin, or a guess  |
+|                | is offered alongside it.                                 |
++----------------+----------------------------------------------------------+
+| Developing     | Nothing is marked "I can't explain it," or unknowns are  |
+|                | filled with invented reasons.                            |
++----------------+----------------------------------------------------------+
+
++---------------------------------------------------------------------------+
+| 4. READING THE GAPS THROUGH THE RELATIONS                                 |
++----------------+----------------------------------------------------------+
+| Strong         | Names the relation you were in at each gap, names where  |
+|                | it shifted from one to another and what made it shift,   |
+|                | and names which relation barely showed up across the     |
+|                | session, usually embodiment.                             |
++----------------+----------------------------------------------------------+
+| Adequate       | Names relations at most gaps and the one that barely     |
+|                | showed up, but misses the shifts or names them loosely.  |
++----------------+----------------------------------------------------------+
+| Developing     | Misnames the relations, or treats them as a checklist    |
+|                | not tied to the gaps.                                    |
++----------------+----------------------------------------------------------+
+
++---------------------------------------------------------------------------+
+| 5. THE REFLEXIVE TURN                                                     |
++----------------+----------------------------------------------------------+
+| Strong         | Works out your own embodiment ahead with a task, a       |
+|                | tipping point, and a loss, and the meta-reflection names |
+|                | two concrete things, one thing you will now notice in    |
+|                | your own material that you would have walked past, and   |
+|                | one way your reading changed.                            |
++----------------+----------------------------------------------------------+
+| Adequate       | The embodiment or the meta-reflection is present but     |
+|                | general, missing one of the concrete parts.              |
++----------------+----------------------------------------------------------+
+| Developing     | The reflexive turn is vague or absent, or stays at "I    |
+|                | learned a lot."                                          |
++----------------+----------------------------------------------------------+
+
+"I can't explain it" counts as much as "I can point to it." Naming what you cannot account for is
+the opposite of what the tool does when it hands you one confident answer.
+
+
+PART 1, GATHER YOUR GAPS  (do this as you work)
+A gap is one place where what a tool gave you parted from what you meant by your own screenshots.
+Write at least five, across at least three different tools. For each one, fill in four lines.
+
+  Gap 1
+    What parted: ________________________________________________________
+    Where I can point to it (a prompt in prompts.md, or a spot in a file): ___________________
+    My label:   I can point to it   /   I'm assuming it   /   I can't explain it
+    The relation I was in when I noticed it (and any shift): __________________________
+
+  Gap 2
+    What parted: ________________________________________________________
+    Where I can point to it: ____________________________________________
+    My label:   I can point to it   /   I'm assuming it   /   I can't explain it
+    The relation I was in (and any shift): ______________________________
+
+  (Continue to at least five gaps, across at least three tools.)
+
+  The four relations, in one line each:
+    Hermeneutic, you read the tool's output like a text to interpret.
+    Alterity, you treated it as another party you were in dialogue with.
+    Background, it shaped things underneath while you barely registered it.
+    Embodiment, you looked through it without noticing it was there.
+
+
+PART 2, THE RELATION THAT BARELY SHOWED UP
+Across the whole session, which relation barely showed up for you? For most people it is
+embodiment, because looking through a tool without noticing comes from long use, and one sitting
+rarely gets there. Whatever was true for you:
+    Relations I was in: _________________________________________________
+    The one that barely showed up: ______________________________________
+
+
+PART 3, THE REFLEXIVE TURN
+Looking forward, work out your own embodiment ahead, with three concrete things:
+    The task (the specific repeated use): ________________________________
+    The tipping point (what makes you stop checking): ___________________
+    The loss (what you stop noticing once you stop checking): ____________
+
+Looking back, how has doing this already changed your reading? Two concrete things:
+    One thing I will now notice in my own material that I would have walked past: ___________
+    One way my reading changed: _________________________________________
+
+
+PART 4, SHARE ONE GAP WITH THE CLASS  (the gallery, not graded on quality)
+Post one of your gaps to the class gallery on the course platform, and respond to two classmates'
+gaps. Because the course is self-paced, this is asynchronous, you post and reply on your own time
+inside the week's window. No one has to be online at once.
+    Which gap I posted: _________________________________________________
+    Two classmates I responded to: ______________________________________
+
+
+SUBMISSION CHECKLIST, confirm you have all of these before you hand in:
+    [ ] prompts.md  (your prompt record, saved by your agent, or your own by-hand record)
+    [ ] my-interpretation.md
+    [ ] screenshot-reading.md
+    [ ] peer-reading.md
+    [ ] your generated image  (context-image-generated.png)
+    [ ] your two before-and-after screenshots of the site
+    [ ] final-prompt.md
+    [ ] your reflection, written up from Parts 1 to 3 above as prose, about 600 to 1000 words
+
+You submit these through the course platform, the files or your whole workspace folder.

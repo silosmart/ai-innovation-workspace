@@ -207,7 +207,7 @@ Open the image and set it beside your real archive in your mind, then look for t
 
 Go to the site at **https://2d3d.reframing.online** in your browser. Upload one screenshot, and you will see your flat image on the left while the tool builds a three-dimensional version of it on the right. Move through that built space for a moment and notice everything in it that was never in your original picture, the depth it gave flat objects, the parts of the room it built past the edges of your frame, surfaces it filled in that you never photographed. That constructed material is the tool's reading. Then take a turn at directing it: mask one part of the scene and type a specific instruction for what you want there instead, for example asking it to put a window where it placed a wall. Generate the change, then compare the result against what you asked for. Look at the masked area in particular and decide which of these happened: it made the change you asked for, it ignored your instruction and kept its own version, or it changed the area but toward something other than what you asked. That comparison, your instruction against what it actually produced, is the gap you are recording here.
 
-The site doesn't save anything, so you capture it yourself with a screenshot, one before your edit and one after.
+The site doesn't save anything, so you capture it yourself with a screenshot, one of the built space before your edit and one of the result after you generate your change, so the pair shows what you asked against what the site did.
 
 **SAVE for hand-in:** two screenshots, before and after your edit.
 

@@ -1,35 +1,40 @@
 # Reading the Gap
 
-**A unit in critical AI literacy for the M.A. in Artificial Intelligence Innovation.**
+A complete unit for the M.A. in Artificial Intelligence Innovation, College of Arts and Humanities, Eastern University.
 
-This unit teaches one idea: the gap between what you mean by your own images and what an AI tool actually makes of them. Reading that gap is a core skill of critical digital humanities, and it matters more as these tools get better at predicting us.
+This repository is the whole unit in one place. It teaches one idea, the gap between what you mean by your own images and what an AI makes of them, across three short lessons, a hands-on activity, and an assessment. Everything here is plain text and image files, so it opens on any device and needs no special software.
 
-The unit has three parts.
+## Start here, in this order
 
-## 1. Lecture video
+Read the files in the order below. Each line says what the file is and who it is for.
 
-A short video introducing the concept and demonstrating it once.
+1. **UNIT-SYLLABUS.md**, the whole unit on one page. The three lessons, the readings for each, the schedule and time, where the unit sits in a seven-week course, and how it is graded. Read this first, it is the map.
+2. **The lecture video**, the unit's recorded lecture, Lesson 2, where the gap becomes visible across several tools. Link at the bottom of this file.
+3. **ACTIVITY.md**, the nine-stage hands-on activity students work through, with the exact steps and commands. The stages are grouped into the three lessons, shown in the syllabus.
+4. **ASSESSMENT.md**, what students submit and how it is graded. Holds the five-criterion rubric, the lesson checkpoints, the knowledge checks, and the grading structure.
+5. **assessment-student-worksheet.txt**, the fill-in sheet a student uses while working, with the rubric shown up front and a submission checklist.
+6. **assessment-grader-worksheet.txt**, the instructor's grading tool, the rubric as a grid with space to mark and note. Shown here so the grading is transparent.
+7. **assessment-worked-example.txt**, one finished sample reflection, then that same reflection graded against the rubric, so you can see exactly how a mark is reached.
 
-**Watch here:** https://www.youtube.com/watch?v=D02clYzQKIw
+Supporting files:
 
-## 2. Interactive activity
+- **setup-prompt.md** and **setup.sh**, build the student workspace, see below.
+- **prompts.md**, a sample prompt record, the kind the activity produces and the assessment reads.
 
-The hands-on component. You work through the whole process on your own screenshots, building your own coaching agent, writing your own reading, running the AI readings, testing where they diverge, generating an image, working the 2D/3D site, and building a master prompt.
+## To run the activity yourself
 
-**See:** `ACTIVITY.md`
+The activity runs in a small workspace built by the setup script. Open a terminal in this folder and run:
 
-Every command and every prompt you need is in that file, in both exact and adaptable form.
+```
+bash setup.sh
+```
 
-## 3. Assessment
+`setup-prompt.md` explains what the script sets up. To do the full activity you also need an agent tool, Claude Code or Cursor, and your own API key for it. No key is stored in this repository, you bring your own. So the script builds and shows you the workspace on any machine, and running the AI stages needs your tool and key in place.
 
-What you submit and how it is graded. Built directly on the activity, so there is nothing extra to produce.
+## The lecture video
 
-**See:** `ASSESSMENT.md`
+Lesson 2, the recorded lecture: https://www.youtube.com/watch?v=D02clYzQKIw
 
-## Where this sits
+## A note for reviewers
 
-This is the second of three lessons. The first introduced the readings and how to build your own archive. This one is where that archive meets the tools. The third asks you to synthesize, adapting a working tool to your own purpose. The full arc is described in `ACTIVITY.md`.
-
-## A note on access
-
-You are welcome to download and adapt this workspace. Contact me for permission. Bring your own API key for the image-generation step; no keys are stored in this repository.
+This is one unit of roughly six or seven in a three-credit, seven-week LifeFlex course, built out in full to show asynchronous teaching across a complete unit. The grader worksheet and the worked example would live in an instructor space in the live program, they are included here so the full assessment design is visible in one place.
