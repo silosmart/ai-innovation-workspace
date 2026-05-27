@@ -115,3 +115,47 @@ Comment to the student:
    reflexive turn up, add the second concrete thing, name the specific kind of thing in your own
    archive you will now notice that you would have walked past before, alongside the habit you
    already named.
+
+================================================================
+PART C, THE STUDENT'S FULL GRADE FOR THE UNIT
+================================================================
+
+The reflection above is the only piece graded on quality, and it is 70 percent of the unit. The
+other 30 percent comes from the lighter work the student did along the way, marked for completion.
+Here is the whole grade for this student, so the parts add up in front of you.
+
+WRITING, the summative reflection ....................... 70%
+   Graded above on the five criteria. Overall Strong. The one Adequate, on the reflexive turn, is
+   what holds it just below straight Strong. On the program scale this lands at about [A-].
+
+THE THREE LESSON CHECKPOINTS, completion, 5% each ....... 15%
+   Lesson 1, Breakdown. Handed in my-interpretation.md, the student's own reading written before
+   any AI. Knowledge check on the four relations, passed. Complete, 5 of 5.
+   Lesson 2, Inquiry. Handed in the running list of gaps from Stages 3 to 6. Knowledge check
+   after the video, passed. Complete, 5 of 5.
+   Lesson 3, Transformation. Handed in final-prompt.md and the coach's readback. Knowledge check,
+   passed. Complete, 5 of 5.
+
+GALLERY PARTICIPATION, completion ....................... 15%
+   Posted one gap to the discussion board, the no-text road image, and replied to two classmates.
+   Complete, 15 of 15.
+
+OPTIONAL LIVE SESSION ........................... up to 5% extra
+   Took part in the guess-the-intention session, or used the recorded asynchronous path. Extra
+   credit applied.
+
+THE FILES BEHIND ALL OF THIS, handed in with the reflection:
+   prompts.md, the prompt record the agent saved, with the prompts the student flagged as the
+   ones where a gap appeared.
+   my-interpretation.md, screenshot-reading.md, peer-reading.md, the generated image, the two
+   site screenshots, final-prompt.md.
+
+THE COMPOSITE
+   Completion work, 30 of 30. Reflection, Strong, the 70 percent at about [A-]. Optional, extra
+   credit applied. Final for the unit, around [A- / A] on the program scale. The grade comes
+   mostly from the reflection, since that is the one place quality is judged, not just completion.
+
+A note for the reviewer: only the reflection is graded on quality. The checkpoints and the gallery
+are completion, and the live session is extra, so the design puts the weight on one honest piece
+of judgment and keeps the rest light, which suits a self-paced adult cohort in a short term.
+Replace the bracketed letters with your program's own scale.
