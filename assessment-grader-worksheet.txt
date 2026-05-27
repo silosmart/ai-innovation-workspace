@@ -1,0 +1,158 @@
+READING THE GAP — PROFESSOR ASSESSMENT WORKSHEET
+One per student. Plain text. About 15 to 20 minutes per student once you are fluent.
+
+Student: ____________________________     Date: ____________
+
+
+WHAT YOU ARE CHECKING
+You are not checking for a correct reading of their archive, because there is not one.
+You are checking how well the student told apart three things about the gaps they noticed:
+  - what they can point to,
+  - what they are guessing,
+  - what they cannot explain.
+
+WHAT KIND OF ASSESSMENT THIS IS
+The reflection you are grading is the student's own self-assessment. They judged their own
+work, sorted their own noticings, and read their own session through the relations. You are
+not redoing that judgment, you are checking how honestly and accurately they made it.
+The gallery is the peer layer. It is checked only for taking part (posted one gap, responded
+to two), not graded on quality, so it does not appear below beyond one completion tick.
+
+   Gallery taken part in?    yes / no    (completion only, no quality judgment)
+
+
+AUTOMATION AND YOUR ROLE (at scale)
+Automation handles the mechanical layer so your time goes to judging, not hunting:
+  - It collects the submissions and checks each one has all the required files.
+  - It finds the spot a student named and brings it up, so you are not searching for it.
+  - It flags any "I can point to it" gap whose named spot is not in the record at all,
+    so those come to you first.
+What stays yours, and is not handed to a machine:
+  - Looking at the spot and deciding whether it shows what the student said.
+  - Marking the level for each criterion.
+  - Overturning anything automation flagged.
+The line: the machine fetches and flags, you see and decide. The moment you stop looking and
+just sign off is the moment this unit warns about, so the process is built to keep you looking.
+
+
+BEFORE YOU START
+Open side by side: the student's reflection, their prompts.md, and their saved files
+(screenshot-reading, peer-reading, the generated image, the two site screenshots, final-prompt).
+For a large group, the completeness check above is already done, so a missing-file submission
+is flagged before it reaches you.
+
+
+PART 1 — GO TO THE SPOTS  (this is most of the grading)
+For each gap the student marked "I can point to it," go to the spot they named and look.
+You are going only to the spots they name, not reading everything.
+
+  Gap 1: ______________________________________________________
+    Spot they named: __________________________________________
+    Does that spot show what they said?    yes  /  partly  /  no
+    Note: _____________________________________________________
+
+  Gap 2: ______________________________________________________
+    Spot they named: __________________________________________
+    Does that spot show what they said?    yes  /  partly  /  no
+    Note: _____________________________________________________
+
+  Gap 3: ______________________________________________________
+    Spot they named: __________________________________________
+    Does that spot show what they said?    yes  /  partly  /  no
+    Note: _____________________________________________________
+
+  (Continue for each gap they marked "I can point to it."
+   They need at least five gaps in total, across at least three different tools.)
+
+
+PART 2 — THE RUBRIC
+This is the rubric, drawn as a grid. For each criterion, mark one box, the level whose
+description best fits the work, then write a line of evidence on the Evidence line. You are
+matching the work to the closest description, not adding up points.
+
++-------------------------------------------------------------------------+
+| 1. POINTING HOLDS UP                                                    |
++----------------+--------------------------------------------------------+
+| [ ] Strong     | Every "I can point to it" gap names a specific prompt  |
+|                | in prompts.md or a specific spot in a file, and that   |
+|                | spot, when checked, shows what they said.              |
++----------------+--------------------------------------------------------+
+| [ ] Adequate   | Most do. One or two point to a spot that does not      |
+|                | clearly show the thing.                                |
++----------------+--------------------------------------------------------+
+| [ ] Developing | Several name no spot, or point to a spot that does not |
+|                | show what they said.                                   |
++----------------+--------------------------------------------------------+
+| Evidence:                                                               |
++-------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------+
+| 2. GUESSES KEPT SEPARATE                                                |
++----------------+--------------------------------------------------------+
+| [ ] Strong     | Everything they cannot tie to a spot is marked "I'm    |
+|                | assuming." The line between shown and believed is      |
+|                | drawn correctly throughout.                            |
++----------------+--------------------------------------------------------+
+| [ ] Adequate   | One or two guesses are marked "I can point to it," but |
+|                | most sorting is right.                                 |
++----------------+--------------------------------------------------------+
+| [ ] Developing | Guesses are repeatedly marked "I can point to it," so  |
+|                | beliefs stand in for shown things.                     |
++----------------+--------------------------------------------------------+
+| Evidence:                                                               |
++-------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------+
+| 3. THE UNEXPLAINED LEFT OPEN                                            |
++----------------+--------------------------------------------------------+
+| [ ] Strong     | At least one gap is marked "I can't explain it," names |
+|                | a real thing, and is left open rather than closed with |
+|                | a made-up reason.                                      |
++----------------+--------------------------------------------------------+
+| [ ] Adequate   | An "I can't explain it" is there but thin, or a guess  |
+|                | is offered alongside it.                               |
++----------------+--------------------------------------------------------+
+| [ ] Developing | Nothing is marked "I can't explain it," or unknowns    |
+|                | are filled with invented reasons.                      |
++----------------+--------------------------------------------------------+
+| Evidence:                                                               |
++-------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------+
+| 4. READING THE SESSION THROUGH THE FOUR RELATIONS                       |
++----------------+--------------------------------------------------------+
+| [ ] Strong     | Names which relations happened with an example of      |
+|                | each, names the one that did not happen (usually       |
+|                | embodiment), and works out their embodiment with a     |
+|                | task, a tipping point, and a loss.                     |
++----------------+--------------------------------------------------------+
+| [ ] Adequate   | Names the relations and the one that did not happen,   |
+|                | but the embodiment is general, not tied to a task, a   |
+|                | tipping point, and a loss.                             |
++----------------+--------------------------------------------------------+
+| [ ] Developing | Misnames the relations, or the embodiment is vague     |
+|                | about when and what would be lost.                     |
++----------------+--------------------------------------------------------+
+| Evidence:                                                               |
++-------------------------------------------------------------------------+
+
+
+PART 3 — OVERALL
+Bring the four ratings together. (Scale below is a starting default to confirm.)
+   Strong overall:      mostly Strong, none Developing
+   Adequate overall:    mostly Adequate, no more than one Developing
+   Developing overall:  two or more Developing
+
+   Overall: ____________
+
+   A short comment to the student (two or three lines):
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+
+REMINDERS WHILE GRADING
+  - Do not grade toward your own reading of their archive. There is not one to grade toward.
+  - Do not reward a tidy story. Reward honest separation of pointable from guessed from unexplained.
+  - "I can't explain it" counts as much as "I can point to it." Naming what you cannot account for
+    is the opposite of what the tool does when it hands you one confident answer.
