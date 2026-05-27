@@ -102,6 +102,8 @@ Either path, the end-of-session read-back only has something to work with once y
 
 **What it does and why.** Before any AI reads your screenshots, you read the set yourself and write down what you see. Doing this first puts in writing what you meant by your screenshots, so you have it to set against the model's reading and find the gap.
 
+Your images live in the `vernacular-archive` folder inside your workspace, the folder you start Claude Code in, so the agent can read them when you refer to that folder by name. If your photos are somewhere else, copy a dozen or two into that folder first.
+
 COMMANDS:
 ```
 !open vernacular-archive
@@ -180,15 +182,17 @@ IN YOUR OWN WORDS: ask the AI to turn its own reading of your whole set into one
 
 It hands you back an image prompt. You then paste that prompt, the one it just wrote, into the generator. Telling it no text matters, because it makes it easy to spot where the picture diverges from what the prompt asked for.
 
-**There are two ways to generate the picture, pick the one that fits what you have.**
+**There are two ways to generate the picture. The browser way needs no key and no terminal, so use it by default. The script way is an optional add-on if you set up a key.**
 
-*Path A, with a Replicate key.* If you set up a Replicate key earlier, the workspace script does it for you. It reads your prompt, sends it to Replicate, and saves the result.
+*The default way, no key, free, in the browser.* You do not need Replicate or any key. Take the prompt the AI just wrote and paste it into a free image generator in your browser. Two reliable free options: Bing Image Creator at **https://www.bing.com/create** (free with a Microsoft account, fifteen fast generations a day), or the official FLUX image space on Hugging Face at **https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell** (this is the same model the script uses, so your result will be close to mine). Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up.
+
+*The optional way, with a Replicate key.* If you set up a Replicate key earlier, the workspace script does it for you, it reads your prompt, sends it to Replicate, and saves the result.
 ```
 !python3 generate_context.py
 ```
-The key is read from your environment, it is not written in the script, so the file is safe to share. If you see an error that the token is not set, your key is not loaded in this terminal; either set it as the setup lesson showed, or use Path B.
+The key is read from your environment, it is not written in the script, so the file is safe to share. If you see an error that the token is not set, your key is not loaded in this terminal, so use the browser way above.
 
-*Path B, no key, free and in the browser.* You don't need Replicate or any key for this. Take the prompt the AI just wrote and paste it into a free image generator in your browser. Two reliable free options: the official FLUX image space on Hugging Face at **https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell** (this is the same model my script uses, so your result will be close to mine), or Bing Image Creator at **https://www.bing.com/create** (free with a Microsoft account, fifteen fast generations a day). Generate the picture there, then download it into your workspace folder and rename it `context-image-generated.png` so the rest of the steps line up. The model isn't the point here, the divergence is, so any of these is fine.
+The model is not the point here, the divergence is, so any of these is fine.
 
 Either path, when you have the image:
 ```
