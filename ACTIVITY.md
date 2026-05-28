@@ -54,20 +54,14 @@ You do not need a paid API key for this. Stage 6 generates an image, and while I
 
 ## Stage 1, Build the coaching agent
 
-**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters because the gap starts with your own assumptions, the things you bring to a picture without thinking about them, so catching them early is what keeps the rest honest.
-
-There are two ways to do this stage. The fast way gets you a working coach in under a minute. The deeper way has you build your own across three rounds, and that building is itself the lesson, because each round changes how you relate to the tool, which is the postphenomenology you saw in the video.
-
-**Fast path, use the ready-made coach.** A finished coach file, `coaching.md`, is already in the workspace under `.claude/agents`. You can use it as is and move straight to Stage 2. This is the recommended path if you are newer to this, because it gets you to the actual gap work quickly.
-
-**Deeper path, build your own in three rounds (optional).** If you want to feel the relations rather than just read about them, build it yourself. First make sure your tool is in your workspace folder.
+**What it does and why.** You use a small helper whose only job is to slow you down and ask what you're assuming before you act. This matters because the gap starts with your own assumptions, the things you bring to a picture without thinking about them, so catching them early is what keeps the rest honest. To make your own coaching agent, build your own in three rounds (optional).** If you want to feel the relations rather than just read about them, build it yourself. First make sure your tool is in your workspace folder.
 
 COMMAND:
 ```
 !pwd
 ```
 
-If that comes back somewhere other than your workspace, you need the real path to your folder. On a Mac, find the folder in Finder, right-click it, hold the Option key, and choose "Copy [folder] as Pathname." On Windows, hold Shift, right-click, and choose "Copy as path." Then type cd, a space, and paste it in quotes, with your own path where mine is.
+If that comes back somewhere other than your workspace, you need the real path to your folder. On a Mac, find the folder in Finder, right-click it, hold the Command+Option keys, and choose "Copy [folder] as Pathname." On Windows, hold Shift, right-click, and choose "Copy as path." Then type cd, a space, and paste it in quotes, with your own path where mine is.
 
 ```
 cd "/Users/yourname/Downloads/your-workspace-folder"
