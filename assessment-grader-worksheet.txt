@@ -5,25 +5,21 @@ Student: ____________________________     Date: ____________
 
 
 WHAT YOU ARE CHECKING
-You are not checking for a correct reading of their archive, because there is not one.
-You are checking how well the student told apart three things about the gaps they noticed:
+You are not checking for a correct reading of their archive, because there is not just one correct reading.You are checking how well the student told apart three things about the gaps they noticed:
   - what they can point to,
   - what they are guessing,
   - what they cannot explain.
 
 WHAT KIND OF ASSESSMENT THIS IS
 The reflection you are grading is the student's own self-assessment. They judged their own
-work, sorted their own noticings, and read their own session through the relations. You are
-not redoing that judgment, you are checking how honestly and accurately they made it.
-The gallery is the peer layer. It is checked only for taking part (posted one gap, responded
-to two), not graded on quality, so it does not appear below beyond one completion tick.
+work, sorted their own noticings, and read their own session through the four postphenomenological relations. You are not redoing that judgment; you are checking how honestly and accurately they made their reflections. The gallery is the peer layer. It is checked only for taking part (posted one gap, responded to two), not graded on quality, so it does not appear below beyond one completion tick.
 
-   Gallery taken part in?    yes / no    (completion only, no quality judgment)
+Gallery (on Canvas/Blackboard) taken part in? yes / no  (completion only, no quality judgment)
 
 
 AUTOMATION AND YOUR ROLE (at scale)
-Automation handles the mechanical layer so your time goes to judging, not hunting:
-  - It collects the submissions and checks each one has all the required files.
+Automation handles the mechanical layer, so your time goes to judging, not hunting:
+  - It collects the submissions and checks that each one has all the required files.
   - It finds the spot a student named and brings it up, so you are not searching for it.
   - It flags any "I can point to it" gap whose named spot is not in the record at all,
     so those come to you first.
@@ -31,8 +27,7 @@ What stays yours, and is not handed to a machine:
   - Looking at the spot and deciding whether it shows what the student said.
   - Marking the level for each criterion.
   - Overturning anything automation flagged.
-The line: the machine fetches and flags, you see and decide. The moment you stop looking and
-just sign off is the moment this unit warns about, so the process is built to keep you looking.
+The line: the machine fetches and flags issues, you see and decide. The moment you stop looking and just sign off is the moment this unit warns about, so the process is built to keep you looking intented at the student's submissions.
 
 
 BEFORE YOU START
@@ -61,8 +56,7 @@ You are going only to the spots they name, not reading everything.
     Does that spot show what they said?    yes  /  partly  /  no
     Note: _____________________________________________________
 
-  (Continue for each gap they marked "I can point to it."
-   They need at least five gaps in total, across at least three different tools.)
+  (Continue for each gap they marked "I can point to it." (ie. about a specific moment to reflect on. They need at least five gaps in total, across at least three different tools.)
 
 
 PART 2 — THE RUBRIC
@@ -71,7 +65,7 @@ description best fits the work, then write a line of evidence on the Evidence li
 matching the work to the closest description, not adding up points.
 
 +-------------------------------------------------------------------------+
-| 1. POINTING HOLDS UP                                                    |
+| 1. POINTING HOLDS UP "I can point to this exactly!"                                                     
 +----------------+--------------------------------------------------------+
 | [ ] Strong     | Every "I can point to it" gap names a specific prompt  |
 |                | in prompts.md or a specific spot in a file, and that   |
@@ -87,7 +81,7 @@ matching the work to the closest description, not adding up points.
 +-------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------------+
-| 2. GUESSES KEPT SEPARATE                                                |
+| 2. GUESSES KEPT SEPARATE "I can't prove it so I'll call it a guess"                                               
 +----------------+--------------------------------------------------------+
 | [ ] Strong     | Everything they cannot tie to a spot is marked "I'm    |
 |                | assuming." The line between shown and believed is      |
@@ -103,7 +97,7 @@ matching the work to the closest description, not adding up points.
 +-------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------------+
-| 3. THE UNEXPLAINED LEFT OPEN                                            |
+| 3. THE UNEXPLAINED LEFT OPEN "I admit what I can't explain"                                           
 +----------------+--------------------------------------------------------+
 | [ ] Strong     | At least one gap is marked "I can't explain it," names |
 |                | a real thing, and is left open rather than closed with |
@@ -119,22 +113,40 @@ matching the work to the closest description, not adding up points.
 +-------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------------+
-| 4. READING THE SESSION THROUGH THE FOUR RELATIONS                       |
+| 4. READING GAPS VIA RELATIONS  "Correct relation noted for each gap"
 +----------------+--------------------------------------------------------+
-| [ ] Strong     | Names which relations happened with an example of      |
-|                | each, names the one that did not happen (usually       |
-|                | embodiment), and works out their embodiment with a     |
-|                | task, a tipping point, and a loss.                     |
+| [ ] Strong     | Names the relation they were in at each gap, names     |
+|                | where it shifted from one to another and what made it  |
+|                | shift, and names which relation barely showed up across|
+|                | the session, usually embodiment.                       |
 +----------------+--------------------------------------------------------+
-| [ ] Adequate   | Names the relations and the one that did not happen,   |
-|                | but the embodiment is general, not tied to a task, a   |
-|                | tipping point, and a loss.                             |
+| [ ] Adequate   | Names relations at most gaps and the one that barely   |
+|                | showed up, but misses the shifts or names them loosely.|
 +----------------+--------------------------------------------------------+
-| [ ] Developing | Misnames the relations, or the embodiment is vague     |
-|                | about when and what would be lost.                     |
+| [ ] Developing | Misnames the relations, or treats them as a checklist  |
+|                | not tied to the gaps.                                  |
 +----------------+--------------------------------------------------------+
 | Evidence:                                                               |
 +-------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+| 5. THE REFLEXIVE TURN  "Turns their lens on their own way of reading"                                                   
++----------------+----------------------------------------------------------+
+| Strong         | Turns the lens on your own way of reading, not only on   |
+|                | the tool. Names two concrete things, one thing you will  |
+|                | now notice in your own material that you would have      |
+|                | walked past before, and one way your reading has changed |
+|                | since starting the unit. Both tied to your own material. |
++----------------+----------------------------------------------------------+
+| Adequate       | Turns the lens on your own reading, but one half stays   |
+|                | general. Names a change in how you read, or a thing you  |
+|                | will now notice, but not both, or one is named loosely.  |
++----------------+----------------------------------------------------------+
+| Developing     | Stays on the tool and does not turn the lens on your own |
+|                | reading, or the turn is vague, the "I learned a lot"     |
+|                | kind that names nothing specific in your own material.   |
++----------------+----------------------------------------------------------+
 
 
 PART 3 — OVERALL
