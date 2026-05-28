@@ -6,7 +6,7 @@ This is the interactive activity for the unit. It is everything you need to do t
 
 **The aim:** find and value the gap between what you meant by your own images and what the tool makes of them. Reading that gap teaches you about the tool, about yourself, and about how to keep your own meaning first.
 
-**A note on the video and this activity.** The lecture video demonstrates two of the nine stages below, Stage 3 (Reading the Archive, where the model reads your screenshots) and Stage 9 (Reading the Trail, where the coach reads your prompt record back to you). Those two stages are marked below. The video shows them so you can watch the gap appear in Stage 3 and watch the coach read your prompts back in Stage 9. This activity is where you run all nine stages yourself, on your own screenshots.
+**A note on the video and this activity.** The lecture video demonstrates two of the nine stages below, Stage 3 (Reading the Archive, where the model reads your screenshots) and Stage 9 (Reading Your Prompt Record, where the coach reads your prompt record back to you). Those two stages are marked below. The video shows them so you can watch the gap appear in Stage 3 and watch the coach read your prompts back in Stage 9. This activity is where you run all nine stages yourself, on your own screenshots.
 
 ---
 
@@ -87,10 +87,10 @@ EXACT PROMPT I used:
 
 IN YOUR OWN WORDS: revise the coach so it argues with your take from a different position rather than reflecting it back.
 
-Round three, give it the postphenomenology readings in your literature folder and the end-of-session look-back across your whole prompt record, which is the background relation, where it can name how the model leans.
+Round three, give it the readings in your postphenomenology-readings folder and the end-of-session look-back across your whole prompt record, which is the background relation, where it can name how the model leans.
 
 EXACT PROMPT I used:
-> Revise my coaching.md again so it can read the files in my literature folder, which holds several postphenomenology writers, Ihde, Verbeek, Rosenberger, and Wiltse, and ground its questions in them without pushing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt record, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
+> Revise my coaching.md again so it can read the files in my postphenomenology-readings folder, which holds open-access articles on the four human-technology relations, and ground its questions in them without pushing everything through one author. And add that when I ask it to look back at the end, it reads across my whole prompt record, shows me what I kept reaching for and what I never tried, and names how I was relating to the tool through the four relations, embodiment as a lens I look through and stop noticing, hermeneutic, alterity, and background, offering that as a reading, not a fact.
 
 IN YOUR OWN WORDS: revise the coach so it draws on your readings and, at the end, reads your whole prompt record back and names the four relations as a reading, not a verdict.
 
@@ -148,6 +148,26 @@ EXACT PROMPT I said:
 > You sound very sure about these six types. But my own reading admits I can't always recover why I took a given screenshot. So tell me honestly, which of your types are anchored in what's really on the screen, and which are you guessing at to give me a clean answer?
 
 IN YOUR OWN WORDS: tell the AI it sounds sure, remind it your own reading admits you can't always recover your intention, and ask which parts are anchored in what's really on the screen versus guessed.
+
+---
+
+## Stage 4b, Read the set again, this time through the postphenomenology
+
+**What it does and why.** The model's first reading in Stage 3 was cold, it had no theory in hand. Now you give it the postphenomenology readings and have it read the same screenshots again through them, then you set the two readings side by side. The difference between the cold reading and the theory-informed one is the literature's influence made visible, and it is itself a gap to record. This is also the moment the video promised, where the agents are given the literature to read.
+
+EXACT PROMPT I said:
+> Read the open-access articles in my postphenomenology-readings folder, then read my twenty-six screenshots again through them, naming where the four relations, embodiment, hermeneutic, alterity, background, show up in the set. Save it as theory-reading.md. Then tell me what the theory made you notice or say that your first cold reading in screenshot-reading.md walked past.
+
+IN YOUR OWN WORDS: have the agent read the postphenomenology folder, read your screenshots again through it into a file called theory-reading.md, then set that beside its first cold reading and name what changed.
+
+When done:
+```
+!open theory-reading.md
+```
+
+**SAVE for hand-in:** `theory-reading.md`.
+
+(Browser, no agent: paste in the reading from Stage 3, upload the Frontiers article, and ask the chatbot to read your images again through it and say what changed. The difference is the same gap.)
 
 ---
 
@@ -221,16 +241,18 @@ Then log it by hand: ask your tool to add a note to prompts.md describing what y
 
 ## Stage 8, Build a master prompt from your take on the screenshots and the two agents' readings of them
 
-**What it does and why.** Each tool gave a reading that left out or changed part of what you meant by your screenshots. So you gather three files into one: your own take from `my-interpretation.md`, the first agent's reading from `screenshot-reading.md`, and the second agent's reading from `peer-reading.md`. You put your take at the top and keep the two agent readings as separate sections, because they disagree and that disagreement is what you want to carry forward. This one file is what you hand to a future AI session so it starts with your point of view and both agent readings, the first by what is on the screen and the second by why you saved each screenshot, instead of starting with nothing.
+**What it does and why.** Each tool gave a reading that left out or changed part of what you meant by your screenshots. So you gather four files into one: your own take from `my-interpretation.md`, the first agent's cold reading from `screenshot-reading.md`, the second agent's reading from `peer-reading.md`, and the theory-informed reading from `theory-reading.md`. You put your take at the top and keep the three readings as separate sections, because they disagree and that disagreement is what you want to carry forward. This one file is what you hand to a future AI session so it starts with your point of view and all three readings, instead of starting with nothing.
 
 ```
 !open final-prompt.md
 ```
 
 EXACT PROMPT I said:
-> Fill in my final-prompt file. Pull my position from my interpretation file, and the two readings from the screenshot-reading and peer-reading files. Keep my position up front, and keep the two readings separate, don't merge them, because the point is they disagree.
+> Fill in my final-prompt file. Pull my position from my interpretation file, and the three readings from the screenshot-reading, peer-reading, and theory-reading files. Keep my position up front, and keep the three readings separate, don't merge them, because the point is they disagree.
 
-IN YOUR OWN WORDS: ask the tool to make one file called `final-prompt.md`, put your own take from `my-interpretation.md` at the top, then paste the first agent's reading from `screenshot-reading.md` and the second agent's reading from `peer-reading.md` as two separate sections, and don't blend the two agent readings together, because they disagree and you want that kept visible.
+IN YOUR OWN WORDS: ask the tool to make one file called `final-prompt.md`, put your own take from `my-interpretation.md` at the top, then the cold reading from `screenshot-reading.md`, the peer reading from `peer-reading.md`, and the theory reading from `theory-reading.md` as three separate sections, kept apart because they disagree and you want that visible.
+
+(Browser, no agent: you can assemble this by hand, or paste your four pieces into the chatbot and ask it to lay them out in one document, your take on top and the three readings kept separate.)
 
 **SAVE for hand-in:** `final-prompt.md`.
 
@@ -238,7 +260,7 @@ IN YOUR OWN WORDS: ask the tool to make one file called `final-prompt.md`, put y
 
 ## Stage 9, Read your prompt record back (bridge to the assessment)
 
-*(Shown in the lecture video: this is Stage 9, "Reading the Trail.")*
+*(Shown in the lecture video: this is Stage 9, "Reading Your Prompt Record.")*
 
 **What it does and why.** Everything you did left a record, and that record is the proof you did the real thinking rather than guessed well. So this is where the work you did becomes evidence, and the evidence becomes the basis for honest reflection in the assessment.
 
@@ -256,6 +278,8 @@ EXACT PROMPT I used:
 
 IN YOUR OWN WORDS: ask your coaching agent to read your whole prompt record back, name the kinds of prompts you repeated and the angles you never prompted from, and name which of the four relations showed up in how you worked, with a real prompt as the example for each.
 
+(Browser, no agent: scroll back through your own chat, which is your prompt record, and do this yourself, name what you kept asking for, what you never tried, and which relations showed up. It is lighter than the coach, but it is the same move.)
+
 If you ran it:
 ```
 !open coaching-readback.md
@@ -266,3 +290,15 @@ This is where the activity ends and the assessment begins. Everything you've mad
 ---
 
 The postphenomenology readings point to noticing how a tool shapes what you see at the very moment you are seeing through it. Concretely, that means you can now name, for any AI reading of your own screenshots, which parts you can anchor to something real, which parts you are taking on faith, and which parts neither you nor the tool can account for. Holding those three apart, while the tool is actively giving you a confident single answer, is the skill this unit builds.
+
+---
+
+## Readings for the literature step
+
+These open-access readings on the four human-technology relations sit in the `postphenomenology-readings` folder and feed the literature step in Stage 4b. They are open stand-ins so anyone can run that step, supplementary to the bibliography shown in the lecture video, not a replacement for it. The video's list holds books by Ihde, Verbeek, and others, which are not open access and reach students through the course platform. For the in-browser version of the step, use the Frontiers article, since it is one self-contained piece with the clearest license.
+
+- Hongladarom, S., and van der Vaeren, A. (2024). ChatGPT, Postphenomenology, and the Human-Technology-Reality Relations. Journal of Human-Technology Relations, 2(1). License CC BY 4.0. PDF: https://journals.open.tudelft.nl/jhtr/article/download/7386/6098
+- A Postphenomenological Framework for Studying User Experience of Immersive Virtual Reality. Frontiers in Virtual Reality (2021). License CC BY 4.0. https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2021.656423/full
+- Wellner, G. (2024). Artificial Intelligence and the Need to Redefine Human Traits. Chapter 7 in Phenomenology and the Philosophy of Technology, Open Book Publishers. By Galit Wellner, also in the unit's Lesson 2 list. License CC BY-NC 4.0, non-commercial only, so it is linked here rather than copied into the folder. https://books.openbookpublishers.com/10.11647/obp.0421/ch7.xhtml
+
+All three are Creative Commons, so keep the author, title, source, and license with any copy you make.

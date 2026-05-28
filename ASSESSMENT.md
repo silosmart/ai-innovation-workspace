@@ -35,7 +35,7 @@ Three things. You will already have the first two from the activity.
 
 **1. Your prompt record.** The file called `prompts.md`, which your coding agent saved on its own during the activity, in order. You do not edit it, you submit it as is. If you worked in a browser chat tool instead and kept your own prompt record by hand, submit that, it serves the same purpose.
 
-**2. Your saved files.** `my-interpretation.md`, `screenshot-reading.md`, `peer-reading.md`, your generated image, your two before-and-after screenshots of the site (the site saves nothing, so you take these yourself, one before your edit and one after), and `final-prompt.md`.
+**2. Your saved files.** `my-interpretation.md`, `screenshot-reading.md`, `theory-reading.md`, `peer-reading.md`, your generated image, your two before-and-after screenshots of the site (the site saves nothing, so you take these yourself, one before your edit and one after), and `final-prompt.md`.
 
 **3. Your reflection.** A new document you write, by following the steps below.
 
@@ -81,7 +81,7 @@ The steps above are your scaffold, the worksheet where you gather and sort. Your
 
 ## Share one gap with the class
 
-Post one of your gaps to the class gallery on the course platform, the discussion board your instructor set up, and respond to two classmates' gaps. Because the course is self-paced, this is asynchronous, you post and reply on your own time inside the week's window. It puts a third reading on your work, from another person, and it is checked for taking part, not graded on quality. An optional live guess-the-intention session runs in the Lesson 3 window, recorded, with the same credit available by watching the recording and posting one guess-and-reveal.
+Post one of your gaps to the class gallery on the course platform, the discussion board your instructor set up, and respond to two classmates' gaps. Because the course is self-paced, this is asynchronous, you post and reply on your own time inside the week's window. It puts a third reading on your work, from another person, and it is checked for taking part, not graded on quality. There is also an optional live guess-the-intention session, hosted by the instructor over video and recorded, where the group sees only the AI's output and guesses one person's intention before the reveal, and the spread across the room is the gap made social. It runs in the Lesson 3 window, and the same credit is available by watching the recording and posting one guess-and-reveal, so missing the live time costs nothing.
 
 ---
 
@@ -114,7 +114,7 @@ The grader's version, with a box to mark and space for notes, is in [assessment-
 | Reflection (summative) | 70% | Five-criterion rubric, by best fit |
 | Three lesson checkpoints, 5% each | 15% | Completion, the saved file plus a short knowledge check |
 | Gallery participation | 15% | Completion, post one gap and respond to two |
-| Optional live session | up to 5% extra | Participation, optional, recorded, with an asynchronous path for the same credit |
+| Optional live session, instructor-hosted guess-the-intention over video | up to 5% extra | Participation, optional, recorded, with an asynchronous path for the same credit |
 
 Most of the grade sits on one honest summative piece, the rest on completion of the lighter work, which is the standard shape for a self-paced adult course in a short term.
 

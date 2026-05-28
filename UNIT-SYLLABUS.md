@@ -136,7 +136,7 @@ The assessment is a separate brief, in [ASSESSMENT.md](ASSESSMENT.md). It consum
 | Reflection (summative) | 70% | Five-criterion rubric, by best fit |
 | Three lesson checkpoints, 5% each | 15% | Completion, saved file plus knowledge check |
 | Gallery participation | 15% | Completion, post one gap and respond to two |
-| Optional live session | up to 5% extra | Participation, optional, recorded, asynchronous path available |
+| Optional live session, instructor-hosted guess-the-intention over video | up to 5% extra | Participation, optional, recorded, asynchronous path available |
 
 The overall rubric level maps to the program's standard letter scale. The full rubric is in the assessment document and the student worksheet, shown before students write.
 

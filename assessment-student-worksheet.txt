@@ -144,6 +144,7 @@ SUBMISSION CHECKLIST, confirm you have all of these before you hand in:
     [ ] prompts.md  (your prompt record, saved by your agent, or your own by-hand record)
     [ ] my-interpretation.md
     [ ] screenshot-reading.md
+    [ ] theory-reading.md
     [ ] peer-reading.md
     [ ] your generated image  (context-image-generated.png)
     [ ] your two before-and-after screenshots of the site
